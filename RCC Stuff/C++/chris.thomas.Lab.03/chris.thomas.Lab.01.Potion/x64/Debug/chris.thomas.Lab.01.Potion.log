@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (chris.thomas.Lab.01.Potion.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Stub.cpp
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.03\chris.thomas.Lab.01.Potion\DynamicArray.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  chris.thomas.Lab.01.Potion.vcxproj -> C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.03\x64\Debug\chris.thomas.Lab.03.exe

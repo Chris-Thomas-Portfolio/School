@@ -1,0 +1,109 @@
+# Reading pref.tcl
+# do Lab01_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab01 {C:/OITWinter2022/DigitalSystemsDesign1/Lab01/Lab01.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:07:51 on Jan 15,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab01" C:/OITWinter2022/DigitalSystemsDesign1/Lab01/Lab01.v 
+# -- Compiling module Lab01
+# 
+# Top level modules:
+# 	Lab01
+# End time: 18:07:51 on Jan 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab01 {C:/OITWinter2022/DigitalSystemsDesign1/Lab01/Adder 4-Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:07:51 on Jan 15,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab01" C:/OITWinter2022/DigitalSystemsDesign1/Lab01/Adder 4-Bit.v 
+# -- Compiling module add
+# 
+# Top level modules:
+# 	add
+# End time: 18:07:51 on Jan 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab01 {C:/OITWinter2022/DigitalSystemsDesign1/Lab01/7Seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:07:51 on Jan 15,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab01" C:/OITWinter2022/DigitalSystemsDesign1/Lab01/7Seg.v 
+# -- Compiling module bin7seg
+# 
+# Top level modules:
+# 	bin7seg
+# End time: 18:07:51 on Jan 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd C:/OITWinter2022/DigitalSystemsDesign1/Lab01/ModelSim
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:27 on Jan 15,2022
+# vlog -reportprogress 300 ../7Seg.v ../Adder 4-Bit.v ../Lab01.v 
+# -- Compiling module bin7seg
+# -- Compiling module add
+# -- Compiling module Lab01
+# 
+# Top level modules:
+# 	Lab01
+# End time: 18:08:28 on Jan 15,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:28 on Jan 15,2022
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:08:28 on Jan 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 18:08:28 on Jan 15,2022
+# Loading work.testbench
+# Loading work.add
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/z'.
+# Executing ONERROR command at macro ./wave.do line 10
+do testbench.tcl
+# End time: 18:09:56 on Jan 15,2022, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:09:56 on Jan 15,2022
+# vlog -reportprogress 300 ../7Seg.v ../Adder 4-Bit.v ../Lab01.v 
+# -- Compiling module bin7seg
+# -- Compiling module add
+# -- Compiling module Lab01
+# 
+# Top level modules:
+# 	Lab01
+# End time: 18:09:57 on Jan 15,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:09:57 on Jan 15,2022
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:09:57 on Jan 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 18:09:57 on Jan 15,2022
+# Loading work.testbench
+# Loading work.add
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/z'.
+# Executing ONERROR command at macro ./wave.do line 10
+# End time: 18:18:35 on Jan 15,2022, Elapsed time: 0:08:38
+# Errors: 0, Warnings: 0

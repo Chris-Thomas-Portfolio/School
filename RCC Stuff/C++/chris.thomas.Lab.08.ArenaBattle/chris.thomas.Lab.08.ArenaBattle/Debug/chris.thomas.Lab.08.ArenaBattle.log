@@ -1,0 +1,7 @@
+﻿  CharCreation.cpp
+  Character.cpp
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.08.ArenaBattle\chris.thomas.Lab.08.ArenaBattle\Character.cpp(185,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Stub.cpp
+  Troll.cpp
+  Generating Code...
+  chris.thomas.Lab.08.ArenaBattle.vcxproj -> C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.08.ArenaBattle\Debug\chris.thomas.Lab.08.ArenaBattle.exe

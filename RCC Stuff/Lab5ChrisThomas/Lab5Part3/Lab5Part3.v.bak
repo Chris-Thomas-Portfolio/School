@@ -1,0 +1,9 @@
+//inputs:
+//		Clk: manual clock
+//		D: data input
+//
+//outputs:
+//		Qa:gated D-latch output
+//		Qb:positive edge-triggered D flip-flop output
+//		Qc:negative edge-Triggered D flip-flop output
+module Lab5Part3

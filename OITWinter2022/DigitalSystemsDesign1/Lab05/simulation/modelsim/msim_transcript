@@ -1,0 +1,119 @@
+# Reading pref.tcl
+# do Lab05_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05 {C:/OITWinter2022/DigitalSystemsDesign1/Lab05/Lab05.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:24:54 on Mar 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05" C:/OITWinter2022/DigitalSystemsDesign1/Lab05/Lab05.v 
+# -- Compiling module Lab05
+# 
+# Top level modules:
+# 	Lab05
+# End time: 13:24:54 on Mar 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05 {C:/OITWinter2022/DigitalSystemsDesign1/Lab05/clk_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:24:54 on Mar 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05" C:/OITWinter2022/DigitalSystemsDesign1/Lab05/clk_divider.v 
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	clk_divider
+# End time: 13:24:55 on Mar 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05 {C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:24:55 on Mar 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05" C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit_control.v 
+# -- Compiling module transmit_control
+# 
+# Top level modules:
+# 	transmit_control
+# End time: 13:24:55 on Mar 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05 {C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:24:55 on Mar 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05" C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit.v 
+# -- Compiling module transmit
+# 
+# Top level modules:
+# 	transmit
+# End time: 13:24:55 on Mar 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+cd ModelSim
+do transmit_tb.TCL
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:25:24 on Mar 07,2022
+# vlog -reportprogress 300 ../Lab05.v ../clk_divider.v ../transmit.v ../transmit_control.v 
+# -- Compiling module Lab05
+# -- Compiling module clk_divider
+# -- Compiling module transmit
+# -- Compiling module transmit_control
+# 
+# Top level modules:
+# 	Lab05
+# End time: 13:25:24 on Mar 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:25:24 on Mar 07,2022
+# vlog -reportprogress 300 transmit_control_tb.v transmit_tb.v 
+# -- Compiling module transmit_control_tb
+# -- Compiling module transmit_tb
+# 
+# Top level modules:
+# 	transmit_control_tb
+# 	transmit_tb
+# End time: 13:25:25 on Mar 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.transmit_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 13:25:25 on Mar 07,2022
+# Loading work.transmit_tb
+# Loading work.transmit
+do transmit_control_tb.tcl
+# End time: 13:30:37 on Mar 07,2022, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:37 on Mar 07,2022
+# vlog -reportprogress 300 ../Lab05.v ../clk_divider.v ../transmit.v ../transmit_control.v 
+# -- Compiling module Lab05
+# -- Compiling module clk_divider
+# -- Compiling module transmit
+# -- Compiling module transmit_control
+# 
+# Top level modules:
+# 	Lab05
+# End time: 13:30:38 on Mar 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:38 on Mar 07,2022
+# vlog -reportprogress 300 transmit_control_tb.v transmit_tb.v 
+# -- Compiling module transmit_control_tb
+# -- Compiling module transmit_tb
+# 
+# Top level modules:
+# 	transmit_control_tb
+# 	transmit_tb
+# End time: 13:30:38 on Mar 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.transmit_control_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 13:30:38 on Mar 07,2022
+# Loading work.transmit_control_tb
+# Loading work.transmit_control
+# End time: 13:31:55 on Mar 07,2022, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0

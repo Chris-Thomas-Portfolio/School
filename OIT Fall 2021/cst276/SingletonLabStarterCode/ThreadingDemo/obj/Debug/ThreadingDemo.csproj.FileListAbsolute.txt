@@ -1,0 +1,10 @@
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\bin\Debug\ThreadingDemo.exe.config
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\bin\Debug\ThreadingDemo.exe
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\bin\Debug\ThreadingDemo.pdb
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\obj\Debug\ThreadingDemo.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\obj\Debug\ThreadingDemo.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\obj\Debug\ThreadingDemo.exe
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\obj\Debug\ThreadingDemo.pdb
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\bin\Debug\SingletonDll.dll
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\bin\Debug\SingletonDll.pdb
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\ThreadingDemo\obj\Debug\ThreadingDemo.csproj.CopyComplete

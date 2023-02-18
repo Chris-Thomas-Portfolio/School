@@ -1,0 +1,7 @@
+module MUX8Concat(
+input wire[7:0] x,
+input wire[7:0] y,
+input wire s,
+output wire[7:0] m
+);
+

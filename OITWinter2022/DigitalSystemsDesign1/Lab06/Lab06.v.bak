@@ -1,0 +1,5 @@
+module Lab06(
+	input CLOCK_50,
+	input data_in,
+	
+);

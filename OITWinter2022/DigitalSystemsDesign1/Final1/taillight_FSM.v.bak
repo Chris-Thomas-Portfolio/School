@@ -1,0 +1,16 @@
+module taillight_FSM(
+	input clk,
+	input left,
+	input right,
+	input bk,
+	input haz,
+	output [5:0] led
+);
+
+reg [2:0] state;
+
+parameter	Idle 	= 3'b000,
+				Left 	= 3'b001,
+				Right = 3'b010,
+				BK 	= 3'b011,
+				HAZ 	= 3'b100;

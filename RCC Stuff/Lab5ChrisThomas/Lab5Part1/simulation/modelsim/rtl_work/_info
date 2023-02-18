@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/simulation/modelsim
+vClkd_Latch
+Z1 !s110 1590877579
+!i10b 1
+!s100 jTo9Uioj?j041EZECf9[d2
+IRCRe44PfAR^>C4m_:>?WD1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1590876360
+8C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/Clkd_Latch.v
+FC:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/Clkd_Latch.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1590877579.000000
+!s107 C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/Clkd_Latch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1|C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/Clkd_Latch.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1}
+Z7 tCvgOpt 0
+n@clkd_@latch
+vD_Latch
+R1
+!i10b 1
+!s100 Z:lSd;25JhDlnGio;zooX3
+IkbF_jJRfLWehP<OdL`00Z1
+R2
+R0
+w1590877427
+8C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/D_Latch.v
+FC:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/D_Latch.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/D_Latch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1|C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/D_Latch.v|
+!i113 1
+R5
+R6
+R7
+n@d_@latch

@@ -1,0 +1,7 @@
+C:\OIT Fall 2021\cst276\ThreadDemo\ThreadDemo\bin\Debug\ThreadDemo.exe.config
+C:\OIT Fall 2021\cst276\ThreadDemo\ThreadDemo\bin\Debug\ThreadDemo.exe
+C:\OIT Fall 2021\cst276\ThreadDemo\ThreadDemo\bin\Debug\ThreadDemo.pdb
+C:\OIT Fall 2021\cst276\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.exe
+C:\OIT Fall 2021\cst276\ThreadDemo\ThreadDemo\obj\Debug\ThreadDemo.pdb

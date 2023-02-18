@@ -1,0 +1,9 @@
+module reciever(
+	input clk,
+	input data_in,
+	output reg [7:0] out
+);
+
+
+
+endmodule

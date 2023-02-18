@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Final1/ModelSim
+vclk_divider
+Z1 !s110 1647127207
+!i10b 1
+!s100 CIFBK1?CWC_7jH5UhD<zA1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IC=LPQY8=[`>Y256^dN>000
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1647126269
+8../clk_divider.v
+F../clk_divider.v
+!i122 2
+L0 14 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1647127207.000000
+Z6 !s107 ../taillight_FSM.v|../clk_divider.v|../Final1.v|
+Z7 !s90 -reportprogress|300|../Final1.v|../clk_divider.v|../taillight_FSM.v|
+!i113 1
+Z8 tCvgOpt 0
+vFinal1
+R1
+!i10b 1
+!s100 e9Qm<2`Sk<[Kb?NMNNheP1
+R2
+ICHfGkQm`zh;cLNd_EjLb63
+R3
+R0
+w1647125339
+8../Final1.v
+F../Final1.v
+!i122 2
+L0 14 15
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@final1
+vtaillight_FSM
+R1
+!i10b 1
+!s100 7AY]gz3O_A?02O=Kg03Bo3
+R2
+IVaaW:Q@51kc`Gi8DQmeJ?2
+R3
+R0
+w1647126101
+8../taillight_FSM.v
+F../taillight_FSM.v
+!i122 2
+L0 14 191
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+ntaillight_@f@s@m
+vtaillight_FSM_tb
+R1
+!i10b 1
+!s100 ;C6R^e9eYojTHVZgn;PH@2
+R2
+IH?>Li<[J1bgKIVEnKT<MF1
+R3
+R0
+w1647127073
+8taillight_FSM_tb.v
+Ftaillight_FSM_tb.v
+!i122 3
+L0 3 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 taillight_FSM_tb.v|
+!s90 -reportprogress|300|taillight_FSM_tb.v|
+!i113 1
+R8
+ntaillight_@f@s@m_tb

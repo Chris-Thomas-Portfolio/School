@@ -1,0 +1,7 @@
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\GammaConsoleClockObserver\bin\Debug\GammaConsoleClockObserver.exe.config
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\GammaConsoleClockObserver\bin\Debug\GammaConsoleClockObserver.exe
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\GammaConsoleClockObserver\bin\Debug\GammaConsoleClockObserver.pdb
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\GammaConsoleClockObserver\obj\Debug\GammaConsoleClockObserver.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\GammaConsoleClockObserver\obj\Debug\GammaConsoleClockObserver.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\GammaConsoleClockObserver\obj\Debug\GammaConsoleClockObserver.exe
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\GammaConsoleClockObserver\obj\Debug\GammaConsoleClockObserver.pdb

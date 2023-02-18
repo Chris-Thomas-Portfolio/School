@@ -1,0 +1,11 @@
+﻿  Exception.cpp
+  stub.cpp
+C:\OIT Winter 2022\Data Structures\ArrayClass\ArrayClass\stub.cpp(103,7): warning C4101: 'tests_passed': unreferenced local variable
+C:\OIT Winter 2022\Data Structures\ArrayClass\ArrayClass\stub.cpp(133,20): warning C4101: 'exception': unreferenced local variable
+C:\OIT Winter 2022\Data Structures\ArrayClass\ArrayClass\stub.cpp(153,20): warning C4101: 'exception': unreferenced local variable
+C:\OIT Winter 2022\Data Structures\ArrayClass\ArrayClass\stub.cpp(173,20): warning C4101: 'exception': unreferenced local variable
+C:\OIT Winter 2022\Data Structures\ArrayClass\ArrayClass\stub.cpp(473,20): warning C4101: 'exception': unreferenced local variable
+C:\OIT Winter 2022\Data Structures\ArrayClass\ArrayClass\stub.cpp(493,20): warning C4101: 'exception': unreferenced local variable
+C:\OIT Winter 2022\Data Structures\ArrayClass\ArrayClass\stub.cpp(513,20): warning C4101: 'exception': unreferenced local variable
+  Generating Code...
+  ArrayClass.vcxproj -> C:\OIT Winter 2022\Data Structures\ArrayClass\Debug\ArrayClass.exe

@@ -1,0 +1,49 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Clkd_Latch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Chris/Documents/EET\ 132/EET132Projects/Lab5ChrisThomas/Lab5Part1 {C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/D_Latch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:26:19 on May 30,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1" C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/D_Latch.v 
+# -- Compiling module D_Latch
+# 
+# Top level modules:
+# 	D_Latch
+# End time: 15:26:19 on May 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Chris/Documents/EET\ 132/EET132Projects/Lab5ChrisThomas/Lab5Part1 {C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/Clkd_Latch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:26:19 on May 30,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1" C:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part1/Clkd_Latch.v 
+# -- Compiling module Clkd_Latch
+# 
+# Top level modules:
+# 	Clkd_Latch
+# End time: 15:26:19 on May 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.Clkd_Latch
+# vsim work.Clkd_Latch 
+# Start time: 15:26:49 on May 30,2020
+# Loading work.Clkd_Latch
+# Loading work.D_Latch
+add wave -position insertpoint  \
+sim:/Clkd_Latch/SW
+add wave -position insertpoint  \
+{sim:/Clkd_Latch/LEDR[0]}
+force -freeze {sim:/Clkd_Latch/SW[1]} 1 0
+force -freeze {sim:/Clkd_Latch/SW[0]} 0 0
+run
+force -freeze {sim:/Clkd_Latch/SW[0]} 1 0
+run
+# End time: 15:28:50 on May 30,2020, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 0

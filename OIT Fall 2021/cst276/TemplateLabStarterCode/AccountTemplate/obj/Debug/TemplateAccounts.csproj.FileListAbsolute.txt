@@ -1,0 +1,6 @@
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\AccountTemplate\bin\Debug\AccountTemplate.dll
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\AccountTemplate\bin\Debug\AccountTemplate.pdb
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\AccountTemplate\obj\Debug\TemplateAccounts.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\AccountTemplate\obj\Debug\AccountTemplate.dll
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\AccountTemplate\obj\Debug\AccountTemplate.pdb
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\AccountTemplate\obj\Debug\TemplateAccounts.csproj.AssemblyReference.cache

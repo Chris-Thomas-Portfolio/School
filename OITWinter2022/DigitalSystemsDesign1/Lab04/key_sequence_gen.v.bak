@@ -1,0 +1,7 @@
+module key_sequence_gen(
+	input key_in,
+	input time_up,
+	input [3:0] key,
+	output key_out,
+	output reset,
+	

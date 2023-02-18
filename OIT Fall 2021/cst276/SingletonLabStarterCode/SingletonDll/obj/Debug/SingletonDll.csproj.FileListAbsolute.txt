@@ -1,0 +1,6 @@
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\SingletonDll\bin\Debug\SingletonDll.dll
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\SingletonDll\bin\Debug\SingletonDll.pdb
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\SingletonDll\obj\Debug\SingletonDll.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\SingletonDll\obj\Debug\SingletonDll.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\SingletonDll\obj\Debug\SingletonDll.dll
+C:\OIT Fall 2021\cst276\SingletonLabStarterCode\SingletonDll\obj\Debug\SingletonDll.pdb

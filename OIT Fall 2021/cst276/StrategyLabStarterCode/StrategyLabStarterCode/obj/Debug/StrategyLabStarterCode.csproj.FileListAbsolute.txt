@@ -1,0 +1,9 @@
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\obj\Debug\StrategyLabStarterCode.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\obj\Debug\StrategyLabStarterCode.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\bin\Debug\StrategyLabStarterCode.exe.config
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\bin\Debug\StrategyLabStarterCode.exe
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\bin\Debug\StrategyLabStarterCode.pdb
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\bin\Debug\StockReportStrategies.dll
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\bin\Debug\StockReportStrategies.pdb
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\obj\Debug\StrategyLabStarterCode.exe
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StrategyLabStarterCode\obj\Debug\StrategyLabStarterCode.pdb

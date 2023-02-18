@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/ALU/simulation/modelsim
+vALU
+!s110 1645680553
+!i10b 1
+!s100 NU2nQUIc2G?2YW`o4k@;S3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[MF=hja2RiRelKPC28[EO3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1645680024
+8C:/OITWinter2022/DigitalSystemsDesign1/ALU/ALU.v
+FC:/OITWinter2022/DigitalSystemsDesign1/ALU/ALU.v
+!i122 0
+L0 1 18
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1645680553.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/ALU/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU|C:/OITWinter2022/DigitalSystemsDesign1/ALU/ALU.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU
+Z6 tCvgOpt 0
+n@a@l@u
+vfsm_alu
+Z7 !s110 1645680554
+!i10b 1
+!s100 3JEzTKb=<W3]0LlOE]l1^2
+R1
+ILRV9[ALdH;2OZEb`8>GU_0
+R2
+R0
+w1645680315
+8C:/OITWinter2022/DigitalSystemsDesign1/ALU/FSM_ALU.v
+FC:/OITWinter2022/DigitalSystemsDesign1/ALU/FSM_ALU.v
+!i122 2
+L0 1 146
+R3
+r1
+!s85 0
+31
+Z8 !s108 1645680554.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/ALU/FSM_ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU|C:/OITWinter2022/DigitalSystemsDesign1/ALU/FSM_ALU.v|
+!i113 1
+R4
+R5
+R6
+vgo
+R7
+!i10b 1
+!s100 8;mJ_VbD6U9TGVa<7iB2<2
+R1
+IzSRX0l9BjOBTVN4M1b[dE2
+R2
+R0
+w1645671706
+8C:/OITWinter2022/DigitalSystemsDesign1/ALU/go.v
+FC:/OITWinter2022/DigitalSystemsDesign1/ALU/go.v
+!i122 1
+L0 1 66
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/ALU/go.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU|C:/OITWinter2022/DigitalSystemsDesign1/ALU/go.v|
+!i113 1
+R4
+R5
+R6

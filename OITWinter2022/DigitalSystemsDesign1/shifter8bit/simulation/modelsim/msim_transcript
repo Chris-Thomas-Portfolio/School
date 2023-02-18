@@ -1,0 +1,70 @@
+# Reading pref.tcl
+# do shifter8bit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit {C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter8bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:44:59 on Feb 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit" C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter8bit.v 
+# -- Compiling module shifter8bit
+# 
+# Top level modules:
+# 	shifter8bit
+# End time: 11:45:00 on Feb 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit {C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:45:00 on Feb 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit" C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 11:45:00 on Feb 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+pwd
+# C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/simulation/modelsim
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+pwd
+# C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit
+cd C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/ModelSim
+do shifter_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:46:42 on Feb 02,2022
+# vlog -reportprogress 300 ../shifter.v ../shifter8bit.v 
+# -- Compiling module shifter
+# -- Compiling module shifter8bit
+# 
+# Top level modules:
+# 	shifter8bit
+# End time: 11:46:42 on Feb 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:46:42 on Feb 02,2022
+# vlog -reportprogress 300 shifter_tb.v 
+# -- Compiling module shifter_tb
+# 
+# Top level modules:
+# 	shifter_tb
+# End time: 11:46:42 on Feb 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shifter_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 11:46:42 on Feb 02,2022
+# Loading work.shifter_tb
+# Loading work.shifter
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_shifter.do line 8
+# End time: 11:49:19 on Feb 02,2022, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 0

@@ -1,0 +1,16 @@
+module decoder2x4(enable, p, a, y);
+	input enable,
+	input p,
+	input [1:0] a,
+	output [3:0] y
+	
+);
+	always @(*)
+		if(~p & ~[1:0])
+			y[0] = 1'b1;
+			
+	
+
+
+
+endmodule

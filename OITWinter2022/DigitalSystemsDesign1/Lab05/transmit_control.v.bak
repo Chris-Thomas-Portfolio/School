@@ -1,0 +1,31 @@
+module transmit_control(
+	input clk,
+	input but,
+	input [7:0] data,
+	output reg out,
+	output reg done,
+	output reg busy
+);
+
+reg [1:0] state;
+reg [3:0] count;
+
+parameter 	Idle = 2'b00,
+				Push = 2'b01,
+				Wait = 2'b10;
+
+	always @(posedge clk)
+		begin
+			case(state)
+				begin
+					Idle:
+						begin
+						end
+					Push:
+						begin
+						end
+					Wait:
+						begin
+						end
+				end
+		end

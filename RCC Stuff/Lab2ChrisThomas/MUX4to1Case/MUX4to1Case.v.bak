@@ -1,0 +1,15 @@
+module MUX4to1Case(output z,
+						input [0:3] c,
+						input [1:0] sel);
+						
+always @(*)
+	
+	case(sel)
+			0: z = c[0];
+			1: z = c[1];
+			2: z = c[2];
+			3: z = c[3];
+			default z = x[0];
+	endcase
+);
+endmodule

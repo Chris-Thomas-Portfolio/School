@@ -1,0 +1,11 @@
+module G4FET(sw,LED);
+	
+	input [2:0] sw;
+	output LED;
+	
+
+	assign LED = (~sw[0] & ~sw[1])
+					| (~sw[0] & ~sw[2])
+					| (~sw[1] & ~sw[2]);
+
+endmodule					

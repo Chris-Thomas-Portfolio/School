@@ -1,0 +1,5 @@
+module Display(
+input wire [1:0] C,
+output wire [9:0] LEDR,
+output wire [6:0] HEX0
+);

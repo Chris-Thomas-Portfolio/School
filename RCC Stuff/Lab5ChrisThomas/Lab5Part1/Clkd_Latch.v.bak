@@ -1,0 +1,6 @@
+//Top Level for Clocked D Latch Circuitd
+
+module Clkd_Latch(Clk, D, Q);
+	input Clk, D;
+	output Q;
+	

@@ -1,0 +1,9 @@
+module MUX2to1a (
+	input wire x, y, z,
+	output wire m);
+
+	assign m = (z == 1'b0) ? x :
+				  (z == 1'b1) ? y :
+				  1'bX;
+			
+endmodule

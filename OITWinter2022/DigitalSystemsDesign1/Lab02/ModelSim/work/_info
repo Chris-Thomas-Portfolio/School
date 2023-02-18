@@ -1,0 +1,188 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/OITWinter2022/DigitalSystemsDesign1/Lab02/ModelSim
+vbcd
+Z0 !s110 1643166397
+!i10b 1
+!s100 dd:dm7jONdJ9RB>2lMEb:1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IY3RTSS_zlH_W1^e8>:0e`0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/OITWinter2022/digitalSystemsDesign1/lab02/ModelSim
+w1642363455
+8../bcd.v
+F../bcd.v
+!i122 67
+L0 1 18
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1643166396.000000
+Z6 !s107 ../counter.v|../clk_divider.v|../bcd_decimal.v|../bcd.v|../Lab02.v|
+Z7 !s90 -reportprogress|300|../Lab02.v|../bcd.v|../bcd_decimal.v|../clk_divider.v|../counter.v|
+!i113 1
+Z8 tCvgOpt 0
+vbcd_decimal
+R0
+!i10b 1
+!s100 J;?Ufo>GbPQh9S:of=@RM1
+R1
+IfhfV6Qc972[aXfAFgaD@F1
+R2
+R3
+w1642360050
+8../bcd_decimal.v
+F../bcd_decimal.v
+!i122 67
+L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vbcd_decimal_tb
+R0
+!i10b 1
+!s100 DRmU5Q;6<^hTGWOGA^YKZ2
+R1
+IIEB1K=0=MW64`0j:=;<MV3
+R2
+R3
+w1643166090
+8bcd_decimal_tb.v
+Fbcd_decimal_tb.v
+!i122 68
+Z9 L0 3 17
+R4
+r1
+!s85 0
+31
+Z10 !s108 1643166397.000000
+!s107 testbench.v|bcd_tb.v|bcd_decimal_tb.v|
+Z11 !s90 -reportprogress|300|bcd_decimal_tb.v|bcd_tb.v|testbench.v|
+!i113 1
+R8
+vbcd_tb
+R0
+!i10b 1
+!s100 D5]hlI0SeO@o<Bg8H9Cgj0
+R1
+Ia7XE5K`:hi`C5jTU9^CzJ1
+R2
+R3
+w1643163635
+8bcd_tb.v
+Fbcd_tb.v
+!i122 68
+R9
+R4
+r1
+!s85 0
+31
+R10
+Z12 !s107 testbench.v|bcd_tb.v|bcd_decimal_tb.v|
+R11
+!i113 1
+R8
+vclk_divider
+R0
+!i10b 1
+!s100 7;bHflDJXKgObNO]JBolG2
+R1
+I[cJPa0Vc;gm74HZPo0AnX0
+R2
+R3
+w1642698689
+8../clk_divider.v
+F../clk_divider.v
+!i122 67
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vcounter
+R0
+!i10b 1
+!s100 JF<eV5:IV8]hAEoi4LnM43
+R1
+IYg[TFWIYC6I@n0IY3l?lT0
+R2
+R3
+w1642528956
+8../counter.v
+F../counter.v
+!i122 67
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vLab02
+R0
+!i10b 1
+!s100 QZm4Q8@3ZPIm`:=BzfKDW3
+R1
+ICAJ9N;i1eBY<8FBOfXDFA2
+R2
+R3
+w1642528248
+8../Lab02.v
+F../Lab02.v
+!i122 67
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@lab02
+vtestbench
+R0
+!i10b 1
+!s100 2VghNT[<Cg9=h30A>laMn2
+R1
+IeIYY9M9OE2RUUPY94V09;3
+R2
+R3
+w1642991994
+8testbench.v
+Ftestbench.v
+!i122 68
+L0 3 21
+R4
+r1
+!s85 0
+31
+R10
+R12
+R11
+!i113 1
+R8

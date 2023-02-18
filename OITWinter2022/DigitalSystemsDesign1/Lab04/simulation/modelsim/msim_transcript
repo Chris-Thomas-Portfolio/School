@@ -1,0 +1,807 @@
+# Reading pref.tcl
+# do Lab04_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04 {C:/OITWinter2022/DigitalSystemsDesign1/Lab04/sequence_check.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:08:29 on Feb 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04" C:/OITWinter2022/DigitalSystemsDesign1/Lab04/sequence_check.v 
+# -- Compiling module sequence_check
+# 
+# Top level modules:
+# 	sequence_check
+# End time: 14:08:29 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04 {C:/OITWinter2022/DigitalSystemsDesign1/Lab04/Lab04.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:08:29 on Feb 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04" C:/OITWinter2022/DigitalSystemsDesign1/Lab04/Lab04.v 
+# -- Compiling module Lab04
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:08:29 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04 {C:/OITWinter2022/DigitalSystemsDesign1/Lab04/clk_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:08:29 on Feb 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04" C:/OITWinter2022/DigitalSystemsDesign1/Lab04/clk_divider.v 
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	clk_divider
+# End time: 14:08:29 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04 {C:/OITWinter2022/DigitalSystemsDesign1/Lab04/timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:08:29 on Feb 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04" C:/OITWinter2022/DigitalSystemsDesign1/Lab04/timer.v 
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# End time: 14:08:29 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04 {C:/OITWinter2022/DigitalSystemsDesign1/Lab04/key_scanner.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:08:29 on Feb 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04" C:/OITWinter2022/DigitalSystemsDesign1/Lab04/key_scanner.v 
+# -- Compiling module key_scanner
+# 
+# Top level modules:
+# 	key_scanner
+# End time: 14:08:29 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04 {C:/OITWinter2022/DigitalSystemsDesign1/Lab04/key_sequence_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:08:29 on Feb 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04" C:/OITWinter2022/DigitalSystemsDesign1/Lab04/key_sequence_gen.v 
+# -- Compiling module key_sequence_gen
+# 
+# Top level modules:
+# 	key_sequence_gen
+# End time: 14:08:29 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04 {C:/OITWinter2022/DigitalSystemsDesign1/Lab04/display.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:08:29 on Feb 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab04" C:/OITWinter2022/DigitalSystemsDesign1/Lab04/display.v 
+# -- Compiling module display
+# 
+# Top level modules:
+# 	display
+# End time: 14:08:30 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+cd ModelSim
+do timer_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:09:02 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:09:02 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:09:02 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:09:02 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.timer_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:09:02 on Feb 26,2022
+# Loading work.timer_tb
+# Loading work.timer
+# ** Fatal: (vsim-3365) Too many port connections. Expected 3, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /timer_tb/U1 File: timer_tb.v Line: 11
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./timer_tb.tcl PAUSED at line 14
+do timer_tb.tcl
+# End time: 14:10:24 on Feb 26,2022, Elapsed time: 0:01:22
+# Errors: 1, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:10:24 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:10:25 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:10:25 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:10:25 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.timer_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:10:25 on Feb 26,2022
+# Loading work.timer_tb
+# Loading work.timer
+# ** Fatal: (vsim-3365) Too many port connections. Expected 3, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /timer_tb/U1 File: timer_tb.v Line: 11
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./timer_tb.tcl PAUSED at line 14
+do timer_tb.tcl
+# End time: 14:11:22 on Feb 26,2022, Elapsed time: 0:00:57
+# Errors: 1, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:11:22 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:11:22 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:11:22 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:11:22 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.timer_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:11:22 on Feb 26,2022
+# Loading work.timer_tb
+# Loading work.timer
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/reset'.
+# Executing ONERROR command at macro ./wave_timer.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching 'hexadecimal'.
+# Executing ONERROR command at macro ./wave_timer.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_timer.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/U1/limit'.
+# Executing ONERROR command at macro ./wave_timer.do line 11
+do timer_tb.tcl
+# End time: 14:13:51 on Feb 26,2022, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:13:51 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:13:52 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:13:52 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:13:52 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.timer_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:13:52 on Feb 26,2022
+# Loading work.timer_tb
+# Loading work.timer
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/reset'.
+# Executing ONERROR command at macro ./wave_timer.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching 'hexadecimal'.
+# Executing ONERROR command at macro ./wave_timer.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_timer.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/U1/limit'.
+# Executing ONERROR command at macro ./wave_timer.do line 11
+do timer_tb.tcl
+# End time: 14:15:21 on Feb 26,2022, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:15:22 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:15:22 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:15:22 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:15:22 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.timer_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:15:22 on Feb 26,2022
+# Loading work.timer_tb
+# Loading work.timer
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/reset'.
+# Executing ONERROR command at macro ./wave_timer.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching 'hexadecimal'.
+# Executing ONERROR command at macro ./wave_timer.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_timer.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/U1/limit'.
+# Executing ONERROR command at macro ./wave_timer.do line 11
+do timer_tb.tcl
+# End time: 14:17:15 on Feb 26,2022, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:17:15 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:17:15 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:17:15 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:17:16 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim work.timer_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:17:16 on Feb 26,2022
+# Loading work.timer_tb
+# Loading work.timer
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/reset'.
+# Executing ONERROR command at macro ./wave_timer.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching 'hexadecimal'.
+# Executing ONERROR command at macro ./wave_timer.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_timer.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/U1/limit'.
+# Executing ONERROR command at macro ./wave_timer.do line 11
+do timer_tb.tcl
+# End time: 14:19:31 on Feb 26,2022, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:19:31 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:19:31 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:19:31 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:19:32 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim work.timer_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:19:32 on Feb 26,2022
+# Loading work.timer_tb
+# Loading work.timer
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/reset'.
+# Executing ONERROR command at macro ./wave_timer.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching 'hexadecimal'.
+# Executing ONERROR command at macro ./wave_timer.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_timer.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/timer_tb/U1/limit'.
+# Executing ONERROR command at macro ./wave_timer.do line 11
+do key_scanner_tb.tcl
+# End time: 14:20:47 on Feb 26,2022, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:20:47 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:20:47 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:20:47 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:20:47 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.key_scanner_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:20:48 on Feb 26,2022
+# Loading work.key_scanner_tb
+# Loading work.key_scanner
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'U1'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /key_scanner_tb/U1 File: key_scanner_tb.v Line: 12
+# ** Warning: (vsim-3722) key_scanner_tb.v(12): [TFMPC] - Missing connection for port 'key_pressed'.
+# ** UI-Msg: (vish-4014) No objects found matching '/key_scanner_tb/clk'.
+# Executing ONERROR command at macro ./wave_key_scanner.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching 'Scanner'.
+# Executing ONERROR command at macro ./wave_key_scanner.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/key_scanner_tb/U1/clk'.
+# Executing ONERROR command at macro ./wave_key_scanner.do line 10
+do display_tb.tcl
+# End time: 14:21:58 on Feb 26,2022, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:21:59 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:21:59 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:21:59 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:21:59 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.display_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:21:59 on Feb 26,2022
+# Loading work.display_tb
+# Loading work.display
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_display.do line 6
+do key_sequence_tb.tcl
+# End time: 14:23:04 on Feb 26,2022, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:23:04 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:23:04 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:23:04 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:23:05 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim work.key_sequence_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:23:05 on Feb 26,2022
+# Loading work.key_sequence_tb
+# Loading work.key_sequence_gen
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'sequence'. The port definition is at: ../key_sequence_gen.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'kp'. The port definition is at: ../key_sequence_gen.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'temp'. The port definition is at: ../key_sequence_gen.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'new_seq'. The port definition is at: ../key_sequence_gen.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_key_sequence.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/key_sequence_tb/U1/reset'.
+# Executing ONERROR command at macro ./wave_key_sequence.do line 10
+do key_sequence_tb.tcl
+# End time: 14:24:25 on Feb 26,2022, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 4
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:25 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:24:25 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:25 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:24:25 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.key_sequence_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:24:26 on Feb 26,2022
+# Loading work.key_sequence_tb
+# Loading work.key_sequence_gen
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'sequence'. The port definition is at: ../key_sequence_gen.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'kp'. The port definition is at: ../key_sequence_gen.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'temp'. The port definition is at: ../key_sequence_gen.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'new_seq'. The port definition is at: ../key_sequence_gen.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_key_sequence.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/key_sequence_tb/U1/reset'.
+# Executing ONERROR command at macro ./wave_key_sequence.do line 10
+do key_sequence_tb.tcl
+# End time: 14:25:46 on Feb 26,2022, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 4
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:46 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:25:46 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:46 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:25:47 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim work.key_sequence_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:25:47 on Feb 26,2022
+# Loading work.key_sequence_tb
+# Loading work.key_sequence_gen
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'sequence'. The port definition is at: ../key_sequence_gen.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'kp'. The port definition is at: ../key_sequence_gen.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'temp'. The port definition is at: ../key_sequence_gen.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'new_seq'. The port definition is at: ../key_sequence_gen.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /key_sequence_tb/U1 File: key_sequence_tb.v Line: 15
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_key_sequence.do line 4
+do sequence_check_tb.tcl
+# End time: 14:27:01 on Feb 26,2022, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 4
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:27:01 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:27:01 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:27:02 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:27:02 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.sequence_check_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:27:02 on Feb 26,2022
+# Loading work.sequence_check_tb
+# Loading work.sequence_check
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_sequence_check.do line 6
+do sequence_check_tb.tcl
+# End time: 14:28:22 on Feb 26,2022, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:28:22 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:28:22 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:28:22 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:28:23 on Feb 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim work.sequence_check_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:28:23 on Feb 26,2022
+# Loading work.sequence_check_tb
+# Loading work.sequence_check
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_sequence_check.do line 6
+do sequence_check_tb.tcl
+# End time: 14:29:04 on Feb 26,2022, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:04 on Feb 26,2022
+# vlog -reportprogress 300 ../Lab04.v ../clk_divider.v ../display.v ../key_scanner.v ../key_sequence_gen.v ../sequence_check.v ../timer.v 
+# -- Compiling module Lab04
+# -- Compiling module clk_divider
+# -- Compiling module display
+# -- Compiling module key_scanner
+# -- Compiling module key_sequence_gen
+# -- Compiling module sequence_check
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	Lab04
+# End time: 14:29:04 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:04 on Feb 26,2022
+# vlog -reportprogress 300 display_tb.v key_scanner_tb.v key_sequence_tb.v sequence_check_tb.v timer_tb.v 
+# -- Compiling module display_tb
+# -- Compiling module key_scanner_tb
+# -- Compiling module key_sequence_tb
+# -- Compiling module sequence_check_tb
+# ** Warning: sequence_check_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module timer_tb
+# 
+# Top level modules:
+# 	display_tb
+# 	key_scanner_tb
+# 	key_sequence_tb
+# 	sequence_check_tb
+# 	timer_tb
+# End time: 14:29:04 on Feb 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.sequence_check_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:29:04 on Feb 26,2022
+# Loading work.sequence_check_tb
+# Loading work.sequence_check
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_sequence_check.do line 6
+# End time: 14:31:15 on Feb 26,2022, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 0

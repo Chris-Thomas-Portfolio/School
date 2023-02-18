@@ -1,0 +1,234 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Final2/ModelSim
+vbcd_tb
+!s110 1647211902
+!i10b 1
+!s100 D5]hlI0SeO@o<Bg8H9Cgj0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ia7XE5K`:hi`C5jTU9^CzJ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1643163635
+8bcd_tb.v
+Fbcd_tb.v
+!i122 11
+Z3 L0 3 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1647211902.000000
+!s107 clk_FSM_tb.v|bcd_tb.v|
+!s90 -reportprogress|300|bcd_tb.v|clk_FSM_tb.v|
+!i113 1
+Z5 tCvgOpt 0
+vbinary_to_bcd
+Z6 !s110 1647286432
+!i10b 1
+!s100 R22b^QY;ZdL4fgkIXGERz2
+R1
+IlhcO3lG_XJaa`:l1a7GPd3
+R2
+R0
+w1647216732
+8../binary_to_bcd.v
+F../binary_to_bcd.v
+!i122 78
+L0 14 18
+R4
+r1
+!s85 0
+31
+Z7 !s108 1647286432.000000
+Z8 !s107 ../seven_seg.v|../clk_divider.v|../clk_FSM.v|../binary_to_bcd.v|../Final2.v|
+Z9 !s90 -reportprogress|300|../Final2.v|../binary_to_bcd.v|../clk_FSM.v|../clk_divider.v|../seven_seg.v|
+!i113 1
+R5
+vbinary_to_bcd_tb
+R6
+!i10b 1
+!s100 dYWNo9AmgmnEJ2EUIc3IA2
+R1
+IKnY@=:jZ98olU5?i74Nl]3
+R2
+R0
+w1647285916
+8binary_to_bcd_tb.v
+Fbinary_to_bcd_tb.v
+!i122 79
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 seven_seg_tb.v|clk_FSM_tb.v|binary_to_bcd_tb.v|
+Z10 !s90 -reportprogress|300|binary_to_bcd_tb.v|clk_FSM_tb.v|seven_seg_tb.v|
+!i113 1
+R5
+vclk_divider
+R6
+!i10b 1
+!s100 CIFBK1?CWC_7jH5UhD<zA1
+R1
+IC=LPQY8=[`>Y256^dN>000
+R2
+R0
+w1647203370
+8../clk_divider.v
+F../clk_divider.v
+!i122 78
+L0 14 26
+R4
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R5
+vclk_FSM
+R6
+!i10b 1
+!s100 h=E]_0iG0`8QhJ9N_R23n2
+R1
+I;ZaWkT=;XiPl=YTW4QQ?M2
+R2
+R0
+w1647285393
+8../clk_FSM.v
+F../clk_FSM.v
+!i122 78
+L0 14 119
+R4
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R5
+nclk_@f@s@m
+vclk_FSM_tb
+R6
+!i10b 1
+!s100 FVCjFC<NHC8ig2ibGiYX61
+R1
+I>82eU0<mWXdFNbi2bhd>l3
+R2
+R0
+w1647237190
+8clk_FSM_tb.v
+Fclk_FSM_tb.v
+!i122 79
+L0 3 30
+R4
+r1
+!s85 0
+31
+R7
+Z11 !s107 seven_seg_tb.v|clk_FSM_tb.v|binary_to_bcd_tb.v|
+R10
+!i113 1
+R5
+nclk_@f@s@m_tb
+vFinal2
+R6
+!i10b 1
+!s100 OV990cG82:NSo>iem<7Le0
+R1
+IE_SOEXzG=jTP1o^V>:I]O1
+R2
+R0
+w1647285245
+8../Final2.v
+F../Final2.v
+!i122 78
+L0 14 36
+R4
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R5
+n@final2
+vseven_seg
+R6
+!i10b 1
+!s100 :RA7YlzVQU8cchF9X6b7e3
+R1
+Iic9A[4n]lK98TRi7MBldW2
+R2
+R0
+w1647285441
+8../seven_seg.v
+F../seven_seg.v
+!i122 78
+L0 14 22
+R4
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R5
+vseven_seg_decode
+!s110 1647237372
+!i10b 1
+!s100 kZYUbhc[Y3=T9Z=P^j:IM3
+R1
+Ij^bDe91bh`Uf?edQhf^M@0
+R2
+R0
+w1647220204
+8../seven_seg_decode.v
+F../seven_seg_decode.v
+!i122 70
+L0 1 78
+R4
+r1
+!s85 0
+31
+!s108 1647237372.000000
+!s107 ../seven_seg_decode.v|../seven_seg.v|../clk_divider.v|../clk_FSM.v|../binary_to_bcd.v|../Final2.v|
+!s90 -reportprogress|300|../Final2.v|../binary_to_bcd.v|../clk_FSM.v|../clk_divider.v|../seven_seg.v|../seven_seg_decode.v|
+!i113 1
+R5
+vseven_seg_tb
+R6
+!i10b 1
+!s100 iCNb7ESo<z7ZJ6]Xd@aZe0
+R1
+IS>0=A<_3FSB:P4<FI3>jU0
+R2
+R0
+w1647286170
+8seven_seg_tb.v
+Fseven_seg_tb.v
+!i122 79
+R3
+R4
+r1
+!s85 0
+31
+R7
+R11
+R10
+!i113 1
+R5

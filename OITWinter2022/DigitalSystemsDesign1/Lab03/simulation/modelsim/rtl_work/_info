@@ -1,0 +1,227 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Lab03/simulation/modelsim
+vbcd_to_decimal
+Z1 !s110 1645827731
+!i10b 1
+!s100 A_28ajDIUYg4cA0Q=knZ^2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Im6i:lHa88aAgbDU1j2X]91
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1643915534
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/bcd_to_decimal.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/bcd_to_decimal.v
+!i122 3
+Z4 L0 1 22
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1645827731.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/bcd_to_decimal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/bcd_to_decimal.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03
+Z9 tCvgOpt 0
+vbinary_to_bcd
+R1
+!i10b 1
+!s100 UECH1J[NSdjij1N3m8YY83
+R2
+IdDGC45fGNlLH31:zTOn]G1
+R3
+R0
+w1642698071
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/binary_to_bcd.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/binary_to_bcd.v
+!i122 2
+Z10 L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/binary_to_bcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/binary_to_bcd.v|
+!i113 1
+R7
+R8
+R9
+vclk_divider
+R1
+!i10b 1
+!s100 fbmlBZBEk6eRSM?1WI6z70
+R2
+IaR[BHK^fN22nkbX9iYk[D1
+R3
+R0
+w1643916289
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/clk_divider.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/clk_divider.v
+!i122 4
+L0 1 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/clk_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/clk_divider.v|
+!i113 1
+R7
+R8
+R9
+vcontrol_generator
+Z11 !s110 1645827732
+!i10b 1
+!s100 A]FYGhE6zH^YC14Cb=oSm0
+R2
+I6V6M74iPM9PAMk^F<SjhL2
+R3
+R0
+w1645806713
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/control_generator.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/control_generator.v
+!i122 6
+Z12 L0 1 17
+R5
+r1
+!s85 0
+31
+!s108 1645827732.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/control_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/control_generator.v|
+!i113 1
+R7
+R8
+R9
+vcounter
+R1
+!i10b 1
+!s100 oRC?`^<Y<3F:XhXo^488>2
+R2
+I:R]IZ5FE85z2;W8=A13MM1
+R3
+R0
+w1643916413
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/counter.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/counter.v
+!i122 1
+R4
+R5
+r1
+!s85 0
+31
+Z13 !s108 1645827730.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/counter.v|
+!i113 1
+R7
+R8
+R9
+vdemux
+Z14 !s110 1645827733
+!i10b 1
+!s100 6ednnnQOR=a?eX]^H>zf51
+R2
+I7Z:D<4V?YzLei`D_cL40I2
+R3
+R0
+w1643914518
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/demux.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/demux.v
+!i122 8
+R12
+R5
+r1
+!s85 0
+31
+Z15 !s108 1645827733.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/demux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/demux.v|
+!i113 1
+R7
+R8
+R9
+vmultiplexed_display
+!s110 1645827730
+!i10b 1
+!s100 6ZY]5hY`G]YaFn^A09LWi0
+R2
+IL46B?mn4R:=34b0WJIo_O0
+R3
+R0
+w1643913169
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/multiplexed_display.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/multiplexed_display.v
+!i122 0
+R10
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/multiplexed_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/multiplexed_display.v|
+!i113 1
+R7
+R8
+R9
+vmux_case
+R14
+!i10b 1
+!s100 aaBe[@j:cZN?QQe2bh_]S0
+R2
+I=D=1m8bz:d0PGKTihNgjA1
+R3
+R0
+w1643914983
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_case.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_case.v
+!i122 7
+L0 1 21
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_case.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_case.v|
+!i113 1
+R7
+R8
+R9
+vmux_display
+R11
+!i10b 1
+!s100 4D=bfZ4H>G@b6n;@<[HAN3
+R2
+IRTb_44RWK1iJFbd_2<P?i1
+R3
+R0
+w1643915907
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_display.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_display.v
+!i122 5
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03|C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_display.v|
+!i113 1
+R7
+R8
+R9

@@ -1,0 +1,21 @@
+module mux4to1(
+	input clk
+	input [3:0] a,
+	input [3:0] b,
+	input [3:0] c,
+	input [3:0] d,
+	input [1:0] sel,
+	output reg [3:0] mout
+);
+
+always @(posedge clk)
+	begin
+		case(sel)
+			2'b00 : mout = a;
+			2'b01 : mout = b;
+			2'b10 : mout = c;
+			2'b11 : mout = d;
+			default : mout = 4'bzzzz;
+		endcase;
+	end
+endmodule

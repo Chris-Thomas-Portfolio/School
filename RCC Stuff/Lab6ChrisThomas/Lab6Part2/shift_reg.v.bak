@@ -1,0 +1,54 @@
+// submodule
+module shift_reg(
+	input L_R,  // direction to shift Left or right, 0 = right, 1 = left
+	input LD,   // loads data in to be shifted
+	input [3:0] D,  // data
+	input sin,  // serial shift in
+	input clk, 
+	input reset, 
+	output [3:0] Q,  // output data
+	output sout
+	);
+	
+	reg [3:0] r_Q; // register for Q
+	reg [2:0] counter = 0;
+	
+	always @ (posedge clk)
+    	begin 
+            if (LD) 
+				begin 
+				    if (counter < 4)
+						counter <= counter + 1;
+				    else 
+						counter <= 1;
+				end  // if (LD)
+          else 
+            counter <= 0;
+        end  // always
+	
+	// Shifter			
+	always @ (posedge clk) 
+		begin 
+			if (LD && !sin)  // parallel load only
+				begin 
+					if (L_R)  // if direction is left
+						r_Q <= D << counter;  // shift left
+					else  // if direction is right
+						r_Q <= D >> counter;  // shift right
+				end  // if (LD)
+			else if (!LD && sin)  // serial load
+				begin 
+					if (L_R)  // if direction is left
+						r_Q <= sin << counter;  // shift left
+					else  // if direction is right
+						r_Q <= sin >> counter;  // shift right
+				end  // else if (!LD...		
+			else
+				r_Q <= 4'b0000;  // else dont load anything in
+		end  // always 
+		
+		assign sout = L_R ? Q[0] : Q[3];  // the lab says to attatch the sout signal to Q[0] for right shift, and Q[3] for left shift
+		assign Q = reset ? r_Q : 4'b0000; // if reset goes low, disable Q output
+
+endmodule  // shift_reg 		
+	

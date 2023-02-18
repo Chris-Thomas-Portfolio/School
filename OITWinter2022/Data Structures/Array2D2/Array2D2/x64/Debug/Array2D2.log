@@ -1,0 +1,19 @@
+﻿  Exceptions.cpp
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Exceptions.cpp(48,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Exceptions.cpp(67,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Exceptions.cpp(85,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Exceptions.cpp(105,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Exceptions.cpp(128,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Exceptions.cpp(165,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Stub.cpp
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(93,7): warning C4101: 'tests_passed': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(117,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(132,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(147,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(162,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(456,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(471,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(486,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\Array2D2\Array2D2\Stub.cpp(501,20): warning C4101: 'exception': unreferenced local variable
+  Generating Code...
+  Array2D2.vcxproj -> C:\OITWinter2022\Data Structures\Array2D2\x64\Debug\Array2D2.exe

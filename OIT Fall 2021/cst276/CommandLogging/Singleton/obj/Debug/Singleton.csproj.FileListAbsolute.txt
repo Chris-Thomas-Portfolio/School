@@ -1,0 +1,1 @@
+C:\Users\Cal\Desktop\CommandPractice\CommandLogging\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache

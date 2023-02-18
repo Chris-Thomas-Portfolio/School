@@ -1,0 +1,26 @@
+//   Author: Chris Thomas
+//   Lab: Lab 1
+//   Project: 4-Bit Adder
+//   File Name: Lab01.v
+//   List of other files used: Adder 4-Bit.v, 7Seg.v, etc.
+//-----------------------------------------------------------------------------
+//   Description of the Code (1 - 5 lines)
+//   This module handles all the case statements for the 7-segment display.
+//-----------------------------------------------------------------------------
+//   Date: 01/5/2022
+//   Version: 1.0
+//   Revision: N/A
+//-----------------------------------------------------------------------------
+module add_bcd(
+input [3:0] a,
+input [3:0] b,
+output reg cout,
+output reg[3:0] s
+);
+
+always @(*)
+	begin
+		s <= (a + b) % 10;
+		cout <= (a + b > 9);
+	end
+endmodule

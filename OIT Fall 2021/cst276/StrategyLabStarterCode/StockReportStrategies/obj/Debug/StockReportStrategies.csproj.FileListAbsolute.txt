@@ -1,0 +1,6 @@
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StockReportStrategies\obj\Debug\StockReportStrategies.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StockReportStrategies\obj\Debug\StockReportStrategies.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StockReportStrategies\bin\Debug\StockReportStrategies.dll
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StockReportStrategies\bin\Debug\StockReportStrategies.pdb
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StockReportStrategies\obj\Debug\StockReportStrategies.dll
+C:\OIT Fall 2021\cst276\StrategyLabStarterCode\StockReportStrategies\obj\Debug\StockReportStrategies.pdb

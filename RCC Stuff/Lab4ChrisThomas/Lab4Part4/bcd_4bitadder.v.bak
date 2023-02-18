@@ -1,0 +1,20 @@
+//one-digit BCD adder S1 S0 = X + Y + Cin
+//inputs: SW7-4 = x
+//		SW3-0 = Y
+//		SW8 = Cin
+//outputs: X is displayed on HEX5
+//								Y is displayed on HEX3
+//								S1 S0 is displayed on HEX1 HEX0
+
+module bcd_4bitadder(SW,LEDR,HEX5,HEX4,HEX3,HEX2,HEX1,HEX0);
+		input [8:0] SW;
+		output [9:0] LEDR;
+		
+		output [0:6] HEX5,HEX4,HEX3,HEX2,HEX1,HEX0;
+		
+		wire Cin;
+		wire [3:0] X;
+		wire [3:0] Y;
+		wire [3:0] S;
+		wire [3:1] C;
+		

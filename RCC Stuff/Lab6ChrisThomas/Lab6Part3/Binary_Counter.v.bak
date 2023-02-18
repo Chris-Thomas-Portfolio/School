@@ -1,0 +1,18 @@
+module Binary_Counter(
+	input [9:0] SW,
+	output [7:0] LEDR
+	);
+	
+	// the board only has ten switches, tie D7 and D6 inputs to 0 
+	wire [7:0] data = {2'b00, SW[9:4]}; 
+	
+	up_dn_counter c1 (
+		.clk(SW[2]),
+		.up_dn(SW[3]),
+		.LD(SW[0]),
+		.reset(SW[1]),
+		.D(data),
+		.out(LEDR)
+		);
+		
+endmodule  // sync_counter

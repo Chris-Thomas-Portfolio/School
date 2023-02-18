@@ -1,0 +1,39 @@
+//   Author: Chris Thomas
+//   Lab: Final2
+//   Project: Final
+//   File Name: clk_divider.v
+//   List of other files used: N/A
+//-----------------------------------------------------------------------------
+//   Description of the Code:
+//   Takes the onboard 50MHz clock and divides it down to 1Hz.
+//-----------------------------------------------------------------------------
+//   Date: 03/13/2022
+//   Version: 1.0
+//   Revision: N/A
+//-----------------------------------------------------------------------------
+module clk_divider
+	#(parameter DIVISION = 250000)(
+	input clk,
+	output reg clk_out
+);
+
+	reg [24:0] count;	// Make the counter big enough to hold our number
+	
+	// Always block to handle the counter
+	always @(posedge clk)
+	begin
+		if(count < DIVISION - 1)	// 50 MHz / (2 x 250 kHz) = 100 Hz
+			count <= count + 1;
+		else
+			count <= 25'b0;
+	end
+
+	// Always block to handle the flip flop portion
+	always @(posedge clk)
+	begin
+		if(count == DIVISION - 1)
+			clk_out <= ~clk_out;
+		else
+			clk_out <= clk_out;
+	end
+endmodule

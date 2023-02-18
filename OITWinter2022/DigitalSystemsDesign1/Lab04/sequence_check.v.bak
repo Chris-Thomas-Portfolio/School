@@ -1,0 +1,18 @@
+module sequence_check(
+	input [15:0] sequence,
+	output unlock,
+	output error,
+	output start_time
+);
+
+reg [1:0] state;
+
+parameter Idle 	= 2'b00,
+			 Unlock 	= 2'b01;
+			 Error 	= 2'b10'
+
+	always @(sequence)
+		begin
+			case(sequence)
+				begin
+					16'h1234 : 

@@ -1,0 +1,29 @@
+|DoorLock
+clk => ld[4]~reg0.CLK
+clk => ld[5]~reg0.CLK
+clk => state~2.DATAIN
+reset => ld[4]~reg0.ACLR
+reset => ld[5]~reg0.ACLR
+reset => state~4.DATAIN
+btn[0] => state.DATAB
+btn[0] => state.DATAB
+btn[0] => Selector1.IN2
+btn[0] => Selector3.IN2
+btn[1] => state.DATAB
+btn[1] => Selector2.IN2
+btn[2] => Selector0.IN2
+btn[2] => ld.DATAB
+btn[2] => Selector4.IN2
+btn[2] => state.DATAB
+ld[4] <= ld[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ld[5] <= ld[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[0] <= <GND>
+LEDR[1] <= <GND>
+LEDR[2] <= <GND>
+LEDR[3] <= <GND>
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+
+

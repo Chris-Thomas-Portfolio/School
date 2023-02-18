@@ -1,0 +1,12 @@
+
+State Machine - |DoorLock|state
+Name state.TwoZeroFail state.TwoFail state.EmptyFail state.TwoZeroOneZero state.TwoZeroOne state.TwoZero state.Two state.Empty state.TwoZeroOneFail 
+state.Empty 0 0 0 0 0 0 0 0 0 
+state.Two 0 0 0 0 0 0 1 1 0 
+state.TwoZero 0 0 0 0 0 1 0 1 0 
+state.TwoZeroOne 0 0 0 0 1 0 0 1 0 
+state.TwoZeroOneZero 0 0 0 1 0 0 0 1 0 
+state.EmptyFail 0 0 1 0 0 0 0 1 0 
+state.TwoFail 0 1 0 0 0 0 0 1 0 
+state.TwoZeroFail 1 0 0 0 0 0 0 1 0 
+state.TwoZeroOneFail 0 0 0 0 0 0 0 1 1 

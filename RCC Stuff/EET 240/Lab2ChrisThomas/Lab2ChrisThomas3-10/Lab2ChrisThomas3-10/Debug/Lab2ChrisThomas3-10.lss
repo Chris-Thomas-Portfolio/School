@@ -1,0 +1,6 @@
+
+AVRASM ver. 2.2.7  F:\EET 240\Lab2ChrisThomas\Lab2ChrisThomas3-10\Lab2ChrisThomas3-10\main.asm Fri Feb 26 14:39:44 2021
+
+[builtin](2): error: Cannot find include file: m32def.inc
+F:\EET 240\Lab2ChrisThomas\Lab2ChrisThomas3-10\Lab2ChrisThomas3-10\main.asm(0): '[builtin]' included form here
+F:\EET 240\Lab2ChrisThomas\Lab2ChrisThomas3-10\Lab2ChrisThomas3-10\main.asm(24): error: Cannot find include file: m32def.inc

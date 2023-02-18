@@ -1,0 +1,12 @@
+﻿  BackPack.cpp
+  Character.cpp
+  CoinPouch.cpp
+  Potion.cpp
+  String.cpp
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.06.Full\chris.thomas.Lab.06.DA\chris.thomas.Lab.06.DA\String.cpp(45,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.06.Full\chris.thomas.Lab.06.DA\chris.thomas.Lab.06.DA\String.cpp(64,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.06.Full\chris.thomas.Lab.06.DA\chris.thomas.Lab.06.DA\String.cpp(85,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.06.Full\chris.thomas.Lab.06.DA\chris.thomas.Lab.06.DA\String.cpp(108,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Stub.cpp
+  Generating Code...
+  chris.thomas.Lab.06.DA.vcxproj -> C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.06.Full\chris.thomas.Lab.06.DA\x64\Debug\chris.thomas.Lab.06.DA.exe

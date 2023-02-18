@@ -1,0 +1,135 @@
+module DoorLock(clk, reset, btn, ld, LEDR);
+
+	input clk, reset, [2:0] btn;
+	output [5:4]ld, [7:0] LEDR;
+	reg [3:0] state;
+	reg out;
+	
+	parameter Empty = 4'b0000,
+				 Two = 4'b0001,
+				 TwoZero = 4'b0010,
+				 TwoZeroOne = 4'b0011,
+				 TwoZeroOneZero = 4'b0100,
+				 EmptyFail = 4'b0101,
+				 TwoFail = 4'b0110,
+				 TwoZeroFail = 4'b0111,
+				 Fail = 4'b1000,
+	
+	assign LEDR[7:0] = 8'b0;
+		
+		always @(posedge clk, posedge reset)
+			begin
+				if(reset)
+				begin
+					state <= Empty;
+				end
+				
+				else
+				begin
+					case(state)
+					Empty:
+					begin
+						if(btn[2])
+						begin
+							state <= Two;
+							ld[5:4] <= 0;
+						end
+						else
+						begin
+							state <= EmptyFail;
+							ld[5:4] <= 0;
+						end
+					end
+					
+					Two:
+					begin
+						if(btn[0])
+						begin
+							state <= TwoZero;
+							ld[5:4] <= 0;
+						end
+						else
+						begin
+							state <=TwoFail;
+							ld[5:4] <= 0;
+						end
+					end
+					
+					TwoZero:
+					begin
+						if(btn[1])
+						begin
+							state <= TwoZeroOne;
+							ld[5:4] <= 0;
+						end
+						else
+						begin
+							state <= TwoZeroFail;
+							ld[5:4] <= 0;
+						end
+					end
+					
+					TwoZeroOne:
+					begin
+						if(btn[0])
+						begin
+							state <= TwoZeroOneZero;
+							ld[5:4] <= 0;
+						end
+						else
+						begin
+							state <= TwoZeroOneFail;
+							ld[5:4] <= 0;
+						end
+					end
+					
+					TwoZeroOneZero;
+					begin
+						if(btn[2])
+						begin
+							state <= Two;
+							ld[5] <= 1;
+							ld[4] <= 0;
+						end
+						else
+						begin
+							state <= Empty;
+							ld[4] <= 1;
+							ld[5] <= 0;
+						end
+					end
+					
+					EmptyFail:
+					begin
+						state <= TwoFail;
+						ld[5:4] <= 0;
+					end
+					
+					TwoFail:
+					begin
+						state <= TwoZeroFail;
+						ld[5:4] <= 0;
+					end
+					
+					TwoZeroFail:
+					begin
+						state <= TwoZeroOneFail;
+						ld[5:4] <= 0;
+					end
+					
+					TwoZeroOneFail:
+					begin
+						state <= Fail;
+						ld[5:4] <= 0;
+					end
+					
+					Fail:
+					begin
+						state <= Empty;
+						ld[4] <= 1;
+						ld[5] <= 0;
+					end
+				endcase
+			end
+		end
+endmodule

@@ -1,0 +1,22 @@
+module go(
+	input clk,
+	input go,
+	input [3:0] data_in,
+	output reg [3:0] data,
+	output reg wait_led
+);
+
+	always @(posedge clk)
+		begin
+			if(go)
+				begin
+					data <= data_in;
+					wait_led <= 1;
+				end
+			else
+				begin
+					data <= data_in;
+					wait_led <= 0;
+				end
+		end
+endmodule

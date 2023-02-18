@@ -1,0 +1,19 @@
+`timescale 1ns / 1ps
+module testbench ();
+	reg [3:0] a, b;
+	wire [4:0] z;
+	
+	add	U1(a, b, z);
+	
+	initial
+	begin
+		a <= 4'b0000;
+		b <= 4'b0000;
+		#160 b <= 4'b1111;
+	end
+	
+	always
+	begin
+		#10 a <= a + 1;
+	end
+endmodule

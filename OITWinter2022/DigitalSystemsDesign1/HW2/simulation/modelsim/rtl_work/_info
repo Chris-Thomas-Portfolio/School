@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/HW2/simulation/modelsim
+vfull_adder
+Z1 !s110 1646151934
+!i10b 1
+!s100 383O0:Io[;I9cl<[8oK7Y1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>UITTX6H`AJB6_m2HAFYV0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1646150005
+8C:/OITWinter2022/DigitalSystemsDesign1/HW2/full_adder.v
+FC:/OITWinter2022/DigitalSystemsDesign1/HW2/full_adder.v
+!i122 1
+L0 14 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1646151934.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/HW2/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2|C:/OITWinter2022/DigitalSystemsDesign1/HW2/full_adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2
+Z8 tCvgOpt 0
+vHW2
+R1
+!i10b 1
+!s100 VMb3`ZChWb:zXK4f<2We?3
+R2
+ICI:U`NF=PYO:HA_[O7?Sc1
+R3
+R0
+w1646150160
+8C:/OITWinter2022/DigitalSystemsDesign1/HW2/HW2.v
+FC:/OITWinter2022/DigitalSystemsDesign1/HW2/HW2.v
+!i122 0
+L0 14 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/HW2/HW2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2|C:/OITWinter2022/DigitalSystemsDesign1/HW2/HW2.v|
+!i113 1
+R6
+R7
+R8
+n@h@w2

@@ -1,0 +1,94 @@
+module Moore1010(reset,in,clk,out,LEDR)
+
+input reset,in,clk;
+output out;
+output [8:0] LEDR;
+reg [1:0] state;
+reg out;
+
+assign LEDR[8:0] = 9'b0;
+
+	@always(posedge clk | posedge reset)
+	begin
+		if(reset)
+		begin
+			state <= A;
+			out <= 0;
+		end
+		
+		else
+		begin
+			case(state)
+			A:
+			begin
+				if (in)
+				begin
+					state <= B;
+					out <= 0;
+				end
+				else
+				begin
+					state <=A;
+					out <= 0;
+				end
+			end
+			
+			B:
+			begin
+				if (in)
+				begin
+					state <= B;
+					out <= 0;
+				end
+				else
+				begin
+					state <= C;
+					out <= 0;
+				end
+			end
+			
+			C:
+			begin
+				if (in)
+				begin
+					state <= D;
+					out <= 0;
+				end
+				else
+				begin
+					state <= C;
+					out <= 0;
+				end
+			end
+			
+			D:
+			begin
+				if (in)
+				begin
+					state <= D;
+					out <= 0;
+				end
+				else
+				begin
+					state <= E;
+					out <= 0;
+				end
+			end
+			
+			E:
+			begin
+				if (in)
+				begin
+					state <= B;
+					out <= 1;
+				end
+				else
+				begin
+					state <= A;
+					out <= 1;
+				end
+			end
+		end
+	end
+
+endmodule

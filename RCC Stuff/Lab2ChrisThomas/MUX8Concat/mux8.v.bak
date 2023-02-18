@@ -1,0 +1,10 @@
+module mux8(
+input wire [7:0] x,
+input wire [7:0] y,
+input wire s,
+output wire [7:0] m
+);
+
+assign m = {8{~s}} & x | {8{s}} & y;
+
+endmodule

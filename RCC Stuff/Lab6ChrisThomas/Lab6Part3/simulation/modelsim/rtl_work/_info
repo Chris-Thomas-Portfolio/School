@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/simulation/modelsim
+vBinary_Counter
+Z1 !s110 1592159774
+!i10b 1
+!s100 ]5;c8Z8`eLKIM2@feC6jJ2
+IO`KPMdH_kAg9;GZM0eWFA1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1592079714
+8C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/Binary_Counter.v
+FC:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/Binary_Counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1592159774.000000
+!s107 C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/Binary_Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3|C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/Binary_Counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3}
+Z7 tCvgOpt 0
+n@binary_@counter
+vup_down_counter
+R1
+!i10b 1
+!s100 KU_b8D3UKD0=12DXc2B0V1
+I[Ak_JYS?2>;fVCI^9Yn2o2
+R2
+R0
+w1592082345
+8C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/up_down_counter.v
+FC:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/up_down_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/up_down_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3|C:/Users/Chris/Documents/EET 132/EET132Projects/Lab6ChrisThomas/Lab6Part3/up_down_counter.v|
+!i113 1
+R5
+R6
+R7

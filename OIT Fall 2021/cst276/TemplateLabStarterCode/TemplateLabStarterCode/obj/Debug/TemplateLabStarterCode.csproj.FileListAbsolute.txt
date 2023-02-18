@@ -1,0 +1,16 @@
+C:\Users\caldwellc\Desktop\Patterns\TemplateStrategy2015\TemplateLab\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\TemplateLabStarterCode.exe.config
+C:\Users\caldwellc\Desktop\Patterns\TemplateStrategy2015\TemplateLab\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\TemplateLabStarterCode.exe
+C:\Users\caldwellc\Desktop\Patterns\TemplateStrategy2015\TemplateLab\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\TemplateLabStarterCode.pdb
+C:\Users\caldwellc\Desktop\Patterns\TemplateStrategy2015\TemplateLab\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.csproj.CoreCompileInputs.cache
+C:\Users\caldwellc\Desktop\Patterns\TemplateStrategy2015\TemplateLab\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.exe
+C:\Users\caldwellc\Desktop\Patterns\TemplateStrategy2015\TemplateLab\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.pdb
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\TemplateLabStarterCode.exe.config
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\TemplateLabStarterCode.exe
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\TemplateLabStarterCode.pdb
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.exe
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.pdb
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\AccountTemplate.dll
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\bin\Debug\AccountTemplate.pdb
+C:\OIT Fall 2021\cst276\TemplateLabStarterCode\TemplateLabStarterCode\obj\Debug\TemplateLabStarterCode.csproj.CopyComplete

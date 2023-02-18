@@ -1,0 +1,281 @@
+# Reading pref.tcl
+# do ALU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU {C:/OITWinter2022/DigitalSystemsDesign1/ALU/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:29:13 on Feb 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU" C:/OITWinter2022/DigitalSystemsDesign1/ALU/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:29:14 on Feb 23,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU {C:/OITWinter2022/DigitalSystemsDesign1/ALU/go.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:29:14 on Feb 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU" C:/OITWinter2022/DigitalSystemsDesign1/ALU/go.v 
+# -- Compiling module go
+# 
+# Top level modules:
+# 	go
+# End time: 21:29:14 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU {C:/OITWinter2022/DigitalSystemsDesign1/ALU/FSM_ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:29:14 on Feb 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/ALU" C:/OITWinter2022/DigitalSystemsDesign1/ALU/FSM_ALU.v 
+# -- Compiling module fsm_alu
+# 
+# Top level modules:
+# 	fsm_alu
+# End time: 21:29:14 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+cd ModelSim
+do top_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:48:33 on Feb 23,2022
+# vlog -reportprogress 300 ../ALU.v ../fsm_alu.v ../go.v 
+# -- Compiling module ALU
+# -- Compiling module fsm_alu
+# -- Compiling module go
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:48:34 on Feb 23,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:48:34 on Feb 23,2022
+# vlog -reportprogress 300 fsm_alu_tb.v go_tb.v top_tb.v 
+# -- Compiling module fsm_alu_tb
+# -- Compiling module go_tb
+# -- Compiling module top_tb
+# ** Error: top_tb.v(11): (vlog-2110) Illegal reference to net "clk".
+# ** Error: top_tb.v(12): (vlog-2110) Illegal reference to net "reset".
+# ** Error: top_tb.v(13): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(14): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(15): (vlog-2110) Illegal reference to net "data".
+# ** Error: top_tb.v(17): (vlog-2110) Illegal reference to net "reset".
+# ** Error: top_tb.v(18): (vlog-2110) Illegal reference to net "reset".
+# ** Error: top_tb.v(20): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(21): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(23): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(24): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(25): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(27): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(28): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(29): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(31): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(32): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(33): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(35): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(36): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(37): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(39): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(40): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(41): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(43): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(44): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(45): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(47): (vlog-2110) Illegal reference to net "opcode".
+# ** Error: top_tb.v(48): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(49): (vlog-2110) Illegal reference to net "go".
+# ** Error: top_tb.v(53): (vlog-2110) Illegal reference to net "clk".
+# End time: 21:48:34 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 31, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./top_tb.tcl line 11
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.v"
+do top_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:50:07 on Feb 23,2022
+# vlog -reportprogress 300 ../ALU.v ../fsm_alu.v ../go.v 
+# -- Compiling module ALU
+# -- Compiling module fsm_alu
+# -- Compiling module go
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:50:07 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:50:07 on Feb 23,2022
+# vlog -reportprogress 300 fsm_alu_tb.v go_tb.v top_tb.v 
+# -- Compiling module fsm_alu_tb
+# -- Compiling module go_tb
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	fsm_alu_tb
+# 	go_tb
+# 	top_tb
+# End time: 21:50:07 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:50:07 on Feb 23,2022
+# Loading work.top_tb
+# Loading work.ALU
+# Loading work.go
+# Loading work.fsm_alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'U1'.  Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 14
+# ** Warning: (vsim-3722) top_tb.v(14): [TFMPC] - Missing connection for port 'result'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'result'. The port definition is at: ../fsm_alu.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1/U2 File: ../ALU.v Line: 16
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: chris  Hostname: LAPTOP-SLOIA78L  ProcessID: 2344
+#           Attempting to use alternate WLF file "./wlftftvzst".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftftvzst
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_top.do line 7
+do top_tb.tcl
+# End time: 21:57:30 on Feb 23,2022, Elapsed time: 0:07:23
+# Errors: 0, Warnings: 5
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:30 on Feb 23,2022
+# vlog -reportprogress 300 ../ALU.v ../fsm_alu.v ../go.v 
+# -- Compiling module ALU
+# -- Compiling module fsm_alu
+# -- Compiling module go
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:57:30 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:57:30 on Feb 23,2022
+# vlog -reportprogress 300 fsm_alu_tb.v go_tb.v top_tb.v 
+# -- Compiling module fsm_alu_tb
+# -- Compiling module go_tb
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	fsm_alu_tb
+# 	go_tb
+# 	top_tb
+# End time: 21:57:30 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:57:30 on Feb 23,2022
+# Loading work.top_tb
+# Loading work.ALU
+# Loading work.go
+# Loading work.fsm_alu
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wait_led'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'wait_led'. The port definition is at: ../ALU.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'result'. The port definition is at: ../ALU.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 15
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./top_tb.tcl PAUSED at line 14
+cd ModelSim
+# couldn't change working directory to "ModelSim": no such file or directory
+do top_tb.tcl
+# End time: 22:01:33 on Feb 23,2022, Elapsed time: 0:04:03
+# Errors: 1, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:01:33 on Feb 23,2022
+# vlog -reportprogress 300 ../ALU.v ../fsm_alu.v ../go.v 
+# -- Compiling module ALU
+# -- Compiling module fsm_alu
+# -- Compiling module go
+# 
+# Top level modules:
+# 	ALU
+# End time: 22:01:33 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:01:34 on Feb 23,2022
+# vlog -reportprogress 300 fsm_alu_tb.v go_tb.v top_tb.v 
+# -- Compiling module fsm_alu_tb
+# -- Compiling module go_tb
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	fsm_alu_tb
+# 	go_tb
+# 	top_tb
+# End time: 22:01:34 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 22:01:34 on Feb 23,2022
+# Loading work.top_tb
+# Loading work.ALU
+# Loading work.go
+# Loading work.fsm_alu
+# ** Fatal: (vsim-3365) Too many port connections. Expected 11, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 15
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./top_tb.tcl PAUSED at line 14
+do top_tb.tcl
+# End time: 22:02:08 on Feb 23,2022, Elapsed time: 0:00:34
+# Errors: 1, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:02:08 on Feb 23,2022
+# vlog -reportprogress 300 ../ALU.v ../fsm_alu.v ../go.v 
+# -- Compiling module ALU
+# -- Compiling module fsm_alu
+# -- Compiling module go
+# 
+# Top level modules:
+# 	ALU
+# End time: 22:02:08 on Feb 23,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:02:08 on Feb 23,2022
+# vlog -reportprogress 300 fsm_alu_tb.v go_tb.v top_tb.v 
+# -- Compiling module fsm_alu_tb
+# -- Compiling module go_tb
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	fsm_alu_tb
+# 	go_tb
+# 	top_tb
+# End time: 22:02:09 on Feb 23,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.top_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 22:02:09 on Feb 23,2022
+# Loading work.top_tb
+# Loading work.ALU
+# Loading work.go
+# Loading work.fsm_alu
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wait_led'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'wait_led'. The port definition is at: ../ALU.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'result'. The port definition is at: ../ALU.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/U1 File: top_tb.v Line: 15
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./top_tb.tcl PAUSED at line 14
+# End time: 22:05:06 on Feb 23,2022, Elapsed time: 0:02:57
+# Errors: 1, Warnings: 2

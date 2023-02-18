@@ -1,0 +1,102 @@
+|fulladder
+SW[0] => B[0].IN1
+SW[1] => B[1].IN1
+SW[2] => B[2].IN1
+SW[3] => B[3].IN1
+SW[4] => A[0].IN1
+SW[5] => A[1].IN1
+SW[6] => A[2].IN1
+SW[7] => A[3].IN1
+SW[8] => Cin.IN1
+LEDR[0] << fa:U1.port3
+LEDR[1] << fa:U2.port3
+LEDR[2] << fa:U3.port3
+LEDR[3] << fa:U4.port3
+LEDR[4] << fa:U4.port4
+LEDR[5] << <GND>
+LEDR[6] << <GND>
+LEDR[7] << <GND>
+LEDR[8] << <GND>
+LEDR[9] << <GND>
+
+
+|fulladder|fa:U1
+a => s.IN0
+a => s.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => s.IN1
+b => s.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+ci => co.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder|fa:U2
+a => s.IN0
+a => s.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => s.IN1
+b => s.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+ci => co.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder|fa:U3
+a => s.IN0
+a => s.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => s.IN1
+b => s.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+ci => co.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder|fa:U4
+a => s.IN0
+a => s.IN0
+a => s.IN0
+a => s.IN0
+b => s.IN1
+b => s.IN1
+b => s.IN1
+b => s.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+ci => co.IN1
+ci => s.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+

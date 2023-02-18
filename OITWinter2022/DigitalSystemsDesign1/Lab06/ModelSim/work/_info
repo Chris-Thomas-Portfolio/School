@@ -1,0 +1,232 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Lab06/ModelSim
+vclk_divider
+Z1 !s110 1647030396
+!i10b 1
+!s100 CIFBK1?CWC_7jH5UhD<zA1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IC=LPQY8=[`>Y256^dN>000
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1646945189
+8../clk_divider.v
+F../clk_divider.v
+!i122 78
+L0 14 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1647030396.000000
+Z6 !s107 ../transmit.v|../to_upper.v|../receiver.v|../display.v|../clk_divider.v|../Lab06.v|
+Z7 !s90 -reportprogress|300|../Lab06.v|../clk_divider.v|../display.v|../receiver.v|../to_upper.v|../transmit.v|
+!i113 1
+Z8 tCvgOpt 0
+vdisplay
+R1
+!i10b 1
+!s100 ]EmhC`bV?W1:[;QUgI@8V1
+R2
+IzkBG1=Gg_TGUEo^?bg[g13
+R3
+R0
+w1646947783
+8../display.v
+F../display.v
+!i122 78
+L0 14 28
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vdisplay_tb
+!s110 1646944479
+!i10b 1
+!s100 Uf?O?SIm4Id4;O<@2nogY1
+R2
+I8ek[4<[5WkSB]V[>Ych:h3
+R3
+R0
+w1645132100
+8display_tb.v
+Fdisplay_tb.v
+!i122 73
+L0 3 17
+R4
+r1
+!s85 0
+31
+!s108 1646944479.000000
+!s107 receiver_tb.v|display_tb.v|
+!s90 -reportprogress|300|display_tb.v|receiver_tb.v|
+!i113 1
+R8
+vLab06
+R1
+!i10b 1
+!s100 PI1UnKmATez[[W>WPV__o0
+R2
+I>];Kkc:C@4DHD4dH`bnAZ0
+R3
+R0
+w1647026328
+8../Lab06.v
+F../Lab06.v
+!i122 78
+L0 14 23
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@lab06
+vreceiver
+R1
+!i10b 1
+!s100 :TR^NQfSWK1;>lTfTA@9@1
+R2
+ID>>VPE8ML1KAb:=@kdaPE2
+R3
+R0
+w1647028296
+8../receiver.v
+F../receiver.v
+!i122 78
+L0 14 139
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vreceiver_tb
+R1
+!i10b 1
+!s100 7T8NgMozK;Q;1PTG4R@;g1
+R2
+IQ627`;<hXiR6On52MOGVo3
+R3
+R0
+w1646944473
+8receiver_tb.v
+Freceiver_tb.v
+!i122 79
+L0 3 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 transmit_tb.v|to_upper_tb.v|receiver_tb.v|
+Z9 !s90 -reportprogress|300|receiver_tb.v|to_upper_tb.v|transmit_tb.v|
+!i113 1
+R8
+vto_upper
+R1
+!i10b 1
+!s100 =:NZjT0[_YRc@FaLT5=hY2
+R2
+I0EQ;@e8=@O5I_Z@j3F@Fo1
+R3
+R0
+w1647029403
+8../to_upper.v
+F../to_upper.v
+!i122 78
+L0 14 40
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vto_upper_tb
+R1
+!i10b 1
+!s100 AkeIXaBm3hEO3DB;Lf3o11
+R2
+IaT6XVFOHU3dJSDSBLCmBN3
+R3
+R0
+w1647030393
+8to_upper_tb.v
+Fto_upper_tb.v
+!i122 79
+L0 3 24
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 transmit_tb.v|to_upper_tb.v|receiver_tb.v|
+R9
+!i113 1
+R8
+vtransmit
+R1
+!i10b 1
+!s100 9LTCYm[=HNEla^deAj8[U0
+R2
+II;5cD2zTd81BH[DOKAkSz2
+R3
+R0
+w1647018266
+8../transmit.v
+F../transmit.v
+!i122 78
+L0 14 67
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtransmit_tb
+R1
+!i10b 1
+!s100 PRSjMP5ANLVDj7KFGm9KV2
+R2
+IQaFY3J40NVR]moPRI]SX[2
+R3
+R0
+w1646688063
+8transmit_tb.v
+Ftransmit_tb.v
+!i122 79
+L0 3 26
+R4
+r1
+!s85 0
+31
+R5
+R10
+R9
+!i113 1
+R8

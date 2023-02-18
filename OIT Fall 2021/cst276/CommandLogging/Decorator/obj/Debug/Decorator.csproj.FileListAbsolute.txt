@@ -1,0 +1,11 @@
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\bin\Debug\Decorator.dll
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\bin\Debug\Decorator.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\bin\Debug\Command.dll
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\bin\Debug\SpreadSheet.dll
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\bin\Debug\Command.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\bin\Debug\SpreadSheet.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\obj\Debug\Decorator.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\obj\Debug\Decorator.csproj.CopyComplete
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\obj\Debug\Decorator.dll
+C:\OIT Fall 2021\cst276\CommandLogging\Decorator\obj\Debug\Decorator.pdb

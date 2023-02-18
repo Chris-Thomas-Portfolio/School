@@ -1,0 +1,286 @@
+# Reading pref.tcl
+# do HW2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2 {C:/OITWinter2022/DigitalSystemsDesign1/HW2/HW2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:34 on Mar 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2" C:/OITWinter2022/DigitalSystemsDesign1/HW2/HW2.v 
+# -- Compiling module HW2
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:25:34 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2 {C:/OITWinter2022/DigitalSystemsDesign1/HW2/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:34 on Mar 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2" C:/OITWinter2022/DigitalSystemsDesign1/HW2/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 08:25:34 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2 {C:/OITWinter2022/DigitalSystemsDesign1/HW2/shift_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:34 on Mar 01,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2" C:/OITWinter2022/DigitalSystemsDesign1/HW2/shift_reg.v 
+# -- Compiling module shift_reg
+# ** Error: C:/OITWinter2022/DigitalSystemsDesign1/HW2/shift_reg.v(26): (vlog-2730) Undefined variable: 'temp'.
+# ** Error (suppressible): C:/OITWinter2022/DigitalSystemsDesign1/HW2/shift_reg.v(28): (vlog-2388) 'temp' already declared in this scope (shift_reg) at C:/OITWinter2022/DigitalSystemsDesign1/HW2/shift_reg.v(26).
+# End time: 08:25:35 on Mar 01,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./HW2_run_msim_rtl_verilog.do line 10
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/HW2 {C:/OITWinter2022/DigitalSystemsDesign1/HW2/shift_reg.v}"
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+cd ModelSim
+do shift_reg_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:26:19 on Mar 01,2022
+# vlog -reportprogress 300 ../HW2.v ../adder_control.v ../dff.v ../full_adder.v ../shift_reg.v 
+# -- Compiling module HW2
+# -- Compiling module adder_control
+# -- Compiling module dff
+# -- Compiling module full_adder
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:26:19 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:26:19 on Mar 01,2022
+# vlog -reportprogress 300 adder_control_tb.v shift_reg_tb.v 
+# -- Compiling module adder_control_tb
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	adder_control_tb
+# 	shift_reg_tb
+# End time: 08:26:19 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shift_reg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 08:26:19 on Mar 01,2022
+# Loading work.shift_reg_tb
+# Loading work.shift_reg
+# ** UI-Msg: (vish-4014) No objects found matching '/display_tb/clk'.
+# Executing ONERROR command at macro ./wave_shift_reg.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/display_tb/data'.
+# Executing ONERROR command at macro ./wave_shift_reg.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/display_tb/load'.
+# Executing ONERROR command at macro ./wave_shift_reg.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/display_tb/shr'.
+# Executing ONERROR command at macro ./wave_shift_reg.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/display_tb/clr'.
+# Executing ONERROR command at macro ./wave_shift_reg.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/display_tb/a'.
+# Executing ONERROR command at macro ./wave_shift_reg.do line 9
+do shift_reg_tb.tcl
+# End time: 08:27:40 on Mar 01,2022, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:27:41 on Mar 01,2022
+# vlog -reportprogress 300 ../HW2.v ../adder_control.v ../dff.v ../full_adder.v ../shift_reg.v 
+# -- Compiling module HW2
+# -- Compiling module adder_control
+# -- Compiling module dff
+# -- Compiling module full_adder
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:27:41 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:27:41 on Mar 01,2022
+# vlog -reportprogress 300 adder_control_tb.v shift_reg_tb.v 
+# -- Compiling module adder_control_tb
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	adder_control_tb
+# 	shift_reg_tb
+# End time: 08:27:41 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shift_reg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 08:27:41 on Mar 01,2022
+# Loading work.shift_reg_tb
+# Loading work.shift_reg
+do shift_reg_tb.tcl
+# End time: 08:31:31 on Mar 01,2022, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:31:31 on Mar 01,2022
+# vlog -reportprogress 300 ../HW2.v ../adder_control.v ../dff.v ../full_adder.v ../shift_reg.v 
+# -- Compiling module HW2
+# -- Compiling module adder_control
+# -- Compiling module dff
+# -- Compiling module full_adder
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:31:31 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:31:31 on Mar 01,2022
+# vlog -reportprogress 300 adder_control_tb.v shift_reg_tb.v 
+# -- Compiling module adder_control_tb
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	adder_control_tb
+# 	shift_reg_tb
+# End time: 08:31:31 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shift_reg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 08:31:31 on Mar 01,2022
+# Loading work.shift_reg_tb
+# Loading work.shift_reg
+do shift_reg_tb.tcl
+# End time: 08:32:50 on Mar 01,2022, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:32:50 on Mar 01,2022
+# vlog -reportprogress 300 ../HW2.v ../adder_control.v ../dff.v ../full_adder.v ../shift_reg.v 
+# -- Compiling module HW2
+# -- Compiling module adder_control
+# -- Compiling module dff
+# -- Compiling module full_adder
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:32:50 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:32:50 on Mar 01,2022
+# vlog -reportprogress 300 adder_control_tb.v shift_reg_tb.v 
+# -- Compiling module adder_control_tb
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	adder_control_tb
+# 	shift_reg_tb
+# End time: 08:32:50 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shift_reg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 08:32:50 on Mar 01,2022
+# Loading work.shift_reg_tb
+# Loading work.shift_reg
+do shift_reg_tb.tcl
+# End time: 08:33:19 on Mar 01,2022, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:19 on Mar 01,2022
+# vlog -reportprogress 300 ../HW2.v ../adder_control.v ../dff.v ../full_adder.v ../shift_reg.v 
+# -- Compiling module HW2
+# -- Compiling module adder_control
+# -- Compiling module dff
+# -- Compiling module full_adder
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:33:19 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:19 on Mar 01,2022
+# vlog -reportprogress 300 adder_control_tb.v shift_reg_tb.v 
+# -- Compiling module adder_control_tb
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	adder_control_tb
+# 	shift_reg_tb
+# End time: 08:33:20 on Mar 01,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.shift_reg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 08:33:20 on Mar 01,2022
+# Loading work.shift_reg_tb
+# Loading work.shift_reg
+do shift_reg_tb.tcl
+# End time: 08:34:38 on Mar 01,2022, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:34:38 on Mar 01,2022
+# vlog -reportprogress 300 ../HW2.v ../adder_control.v ../dff.v ../full_adder.v ../shift_reg.v 
+# -- Compiling module HW2
+# -- Compiling module adder_control
+# -- Compiling module dff
+# -- Compiling module full_adder
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:34:38 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:34:38 on Mar 01,2022
+# vlog -reportprogress 300 adder_control_tb.v shift_reg_tb.v 
+# -- Compiling module adder_control_tb
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	adder_control_tb
+# 	shift_reg_tb
+# End time: 08:34:38 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shift_reg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 08:34:38 on Mar 01,2022
+# Loading work.shift_reg_tb
+# Loading work.shift_reg
+do shift_reg_tb.tcl
+# End time: 08:35:19 on Mar 01,2022, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:35:19 on Mar 01,2022
+# vlog -reportprogress 300 ../HW2.v ../adder_control.v ../dff.v ../full_adder.v ../shift_reg.v 
+# -- Compiling module HW2
+# -- Compiling module adder_control
+# -- Compiling module dff
+# -- Compiling module full_adder
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	HW2
+# End time: 08:35:19 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:35:19 on Mar 01,2022
+# vlog -reportprogress 300 adder_control_tb.v shift_reg_tb.v 
+# -- Compiling module adder_control_tb
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	adder_control_tb
+# 	shift_reg_tb
+# End time: 08:35:19 on Mar 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shift_reg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 08:35:19 on Mar 01,2022
+# Loading work.shift_reg_tb
+# Loading work.shift_reg
+# End time: 08:36:02 on Mar 01,2022, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0

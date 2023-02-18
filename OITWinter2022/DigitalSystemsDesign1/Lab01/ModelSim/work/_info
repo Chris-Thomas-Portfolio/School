@@ -1,0 +1,100 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Lab01/ModelSim
+vadd
+Z1 !s110 1642298997
+!i10b 1
+!s100 M7?U`cZ0fg:5@X`DY^P_82
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9>llMMjn>UD4]oE0d;n3o0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1642146510
+8../Adder 4-Bit.v
+F../Adder 4-Bit.v
+!i122 15
+L0 18 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1642298996.000000
+Z6 !s107 ../Lab01.v|../Adder 4-Bit.v|../7Seg.v|
+Z7 !s90 -reportprogress|300|../7Seg.v|../Adder 4-Bit.v|../Lab01.v|
+!i113 1
+Z8 tCvgOpt 0
+vbin7seg
+R1
+!i10b 1
+!s100 T]XIA5NYkg9DZaH7:]ciI1
+R2
+Ii30S1Q`D0[48gEWO>73l91
+R3
+R0
+w1642146575
+8../7Seg.v
+F../7Seg.v
+!i122 15
+L0 15 199
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vLab01
+R1
+!i10b 1
+!s100 59hJhVZK>HTSo:eHX<<X23
+R2
+IVnz8ic>B_>VH1:WjEC;;d3
+R3
+R0
+w1642192252
+8../Lab01.v
+F../Lab01.v
+!i122 15
+L0 19 18
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@lab01
+vtestbench
+R1
+!i10b 1
+!s100 XjJhG`JlZzZbQKJ4j>?@D0
+R2
+IhKa_[OdE28`_4WjK4gH^i2
+R3
+R0
+w1642298023
+8testbench.v
+Ftestbench.v
+!i122 16
+L0 2 18
+R4
+r1
+!s85 0
+31
+!s108 1642298997.000000
+!s107 testbench.v|
+!s90 -reportprogress|300|testbench.v|
+!i113 1
+R8

@@ -1,0 +1,7 @@
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\CSharpConsoleClockObserver\bin\Debug\CSharpConsoleClockObserver.exe.config
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\CSharpConsoleClockObserver\bin\Debug\CSharpConsoleClockObserver.exe
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\CSharpConsoleClockObserver\bin\Debug\CSharpConsoleClockObserver.pdb
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\CSharpConsoleClockObserver\obj\Debug\CSharpConsoleClockObserver.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\CSharpConsoleClockObserver\obj\Debug\CSharpConsoleClockObserver.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\CSharpConsoleClockObserver\obj\Debug\CSharpConsoleClockObserver.exe
+C:\OIT Fall 2021\cst276\ObserverLabStarterCode\CSharpConsoleClockObserver\obj\Debug\CSharpConsoleClockObserver.pdb

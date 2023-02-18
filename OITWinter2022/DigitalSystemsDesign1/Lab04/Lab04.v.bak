@@ -1,0 +1,6 @@
+module Lab04(
+	input clk_50MHz,
+	input [3:0] columns,
+	output [3:0] rows
+);
+

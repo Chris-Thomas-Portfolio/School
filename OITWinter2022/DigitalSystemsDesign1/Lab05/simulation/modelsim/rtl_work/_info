@@ -1,0 +1,108 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Lab05/simulation/modelsim
+vclk_divider
+Z1 !s110 1646688295
+!i10b 1
+!s100 X@FYlAo]IVX[KoYf^@Uh52
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT[PEO`CHRLm4Y]ehX8GM:3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1646499651
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab05/clk_divider.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab05/clk_divider.v
+!i122 1
+L0 14 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1646688294.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab05/clk_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05|C:/OITWinter2022/DigitalSystemsDesign1/Lab05/clk_divider.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05
+Z8 tCvgOpt 0
+vLab05
+!s110 1646688294
+!i10b 1
+!s100 6nQ?jm2a?]ehjR37]bQ@h0
+R2
+IZnnX=c5ndgPzVHHVc6mQj3
+R3
+R0
+w1646685336
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab05/Lab05.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab05/Lab05.v
+!i122 0
+L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab05/Lab05.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05|C:/OITWinter2022/DigitalSystemsDesign1/Lab05/Lab05.v|
+!i113 1
+R6
+R7
+R8
+n@lab05
+vtransmit
+R1
+!i10b 1
+!s100 hc8KS[`R:NhUJ^7]fTfJ@1
+R2
+IC[i;K:0ORS7fMOW1^_Tz42
+R3
+R0
+w1646687886
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit.v
+!i122 3
+L0 14 66
+R4
+r1
+!s85 0
+31
+Z9 !s108 1646688295.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05|C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit.v|
+!i113 1
+R6
+R7
+R8
+vtransmit_control
+R1
+!i10b 1
+!s100 15F]z0UeY=K94ao@fDZ8d1
+R2
+ITM]X;NZmll@Lh3>DXo8nC0
+R3
+R0
+w1646686097
+8C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit_control.v
+FC:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit_control.v
+!i122 2
+L0 14 52
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab05|C:/OITWinter2022/DigitalSystemsDesign1/Lab05/transmit_control.v|
+!i113 1
+R6
+R7
+R8

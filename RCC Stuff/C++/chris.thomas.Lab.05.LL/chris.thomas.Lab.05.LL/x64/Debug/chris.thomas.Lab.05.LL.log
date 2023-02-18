@@ -1,0 +1,19 @@
+﻿  BackPack.cpp
+  Character.cpp
+  CoinPouch.cpp
+  DynamicArray.cpp
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\DynamicArray.cpp(170,19): warning C4101: 'NO_POTION': unreferenced local variable
+  List.cpp
+  Node.cpp
+  Potion.cpp
+  String.cpp
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\String.cpp(45,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\String.cpp(64,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\String.cpp(85,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\String.cpp(108,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Stub.cpp
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\Stub.cpp(24,19): warning C4101: 'EMPTY_LIST': unreferenced local variable
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\Stub.cpp(32,19): warning C4101: 'EMPTY_LIST': unreferenced local variable
+C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\chris.thomas.Lab.05.LL\Stub.cpp(40,19): warning C4101: 'EMPTY_LIST': unreferenced local variable
+  Generating Code...
+  chris.thomas.Lab.05.LL.vcxproj -> C:\Users\Chris\Documents\CS 234\chris.thomas.Lab.05.LL\x64\Debug\chris.thomas.Lab.05.LL.exe

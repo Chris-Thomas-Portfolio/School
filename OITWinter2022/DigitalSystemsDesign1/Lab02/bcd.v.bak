@@ -1,0 +1,63 @@
+module bcd
+	#(parameter BIT_COUNT = 16)(
+	input [BIT_COUNT-1:0] bin,
+	output reg [3:0] TenThousands,
+	output reg [3:0] Thousands,
+	output reg [3:0] Hundreds,
+	output reg [3:0] Tens,
+	output reg [3:0] Ones
+);
+
+integer i;
+
+always @(bin)
+	begin
+		TenThousands = 4'd0;
+		Thousands = 4'd0;
+		Hundreds	 = 4'd0;
+		Tens		 = 4'd0;
+		Ones		 = 4'd0;
+		
+		for (i = 0; i < BIT_COUNT; i = i + 1)
+			begin
+				if (TenThousands >= 5)
+					begin
+						TenThousands = TenThousands + 3;
+					end
+				if (Thousands >= 5)
+					begin
+						Thousands = Thousands + 3;
+					end
+					
+				if	(Hundreds >= 5)
+					begin
+						Hundreds = Hundreds + 3;
+					end
+					
+				if (Tens >= 5)
+					begin
+						Tens = Tens + 3;
+					end
+					
+				if (Ones >= 5)
+					begin
+						Ones = Ones + 3;
+					end
+					
+				TenThousands = TenThousands << 1;
+				TenThousands[0] = Thousands[3];
+				Thousands = Thousands << 1;
+				Thousands[0] = Hundreds[3];
+				Hundreds = Hundreds << 1;
+				Hundreds[0] = Tens[3];
+				Tens = Tens << 1;
+				Tens[0] = Ones[3];
+				Ones = Ones << 1;
+				Ones[0] = bin[3];
+				
+			end
+	end
+
+endmodule
+		
+			

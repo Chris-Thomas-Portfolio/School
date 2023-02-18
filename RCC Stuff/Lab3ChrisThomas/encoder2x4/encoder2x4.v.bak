@@ -1,0 +1,18 @@
+module encoder2x4(enable,a,r,valid,LEDR);
+input enable;
+input [3:0] a;
+output [1:0] r;
+output valid;
+
+assign valid = (~a[0] & ~a[1] & ~a[2] & ~a[3] & ~enable)
+					|(enable);
+
+
+assign r[1] = (a[2] & ~enable)
+					|(a[3] & ~enable);
+					
+assign r[0] = (a[1] & ~enable)
+					|(a[3] & ~enable);
+					
+
+endmodule		 

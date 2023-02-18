@@ -1,0 +1,10 @@
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\bin\Debug\netcoreapp3.1\CalcDll.deps.json
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\bin\Debug\netcoreapp3.1\CalcDll.dll
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\bin\Debug\netcoreapp3.1\CalcDll.pdb
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\obj\Debug\netcoreapp3.1\CalcDll.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\obj\Debug\netcoreapp3.1\CalcDll.GeneratedMSBuildEditorConfig.editorconfig
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\obj\Debug\netcoreapp3.1\CalcDll.AssemblyInfoInputs.cache
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\obj\Debug\netcoreapp3.1\CalcDll.AssemblyInfo.cs
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\obj\Debug\netcoreapp3.1\CalcDll.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\obj\Debug\netcoreapp3.1\CalcDll.dll
+C:\OIT Fall 2021\cst276\ManagedDllDemo\CalcDll\obj\Debug\netcoreapp3.1\CalcDll.pdb

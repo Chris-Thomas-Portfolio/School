@@ -1,0 +1,14 @@
+module MUX2to1c(
+input wire e,
+input wire f,
+input wire g,
+output reg h
+);
+
+	always @(*)
+		if (g < 1)
+			h = e;
+		else
+			h = f;
+
+endmodule

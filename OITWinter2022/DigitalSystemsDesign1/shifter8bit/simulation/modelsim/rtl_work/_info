@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/simulation/modelsim
+vshifter
+Z1 !s110 1643831100
+!i10b 1
+!s100 <aLGA]>OdHSLYkPOI2fn<3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW<g?mnoBZ_7GI2P2cK^^@1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1643577671
+8C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter.v
+FC:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter.v
+!i122 1
+L0 1 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1643831100.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit|C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit
+Z7 tCvgOpt 0
+vshifter8bit
+R1
+!i10b 1
+!s100 k69azZL`WQS1Ag?2EDNg?1
+R2
+I[_VG;IhIjKf[V@<^Tzb0d2
+R3
+R0
+w1643577328
+8C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter8bit.v
+FC:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter8bit.v
+!i122 0
+L0 1 10
+R4
+r1
+!s85 0
+31
+!s108 1643831099.000000
+!s107 C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit|C:/OITWinter2022/DigitalSystemsDesign1/shifter8bit/shifter8bit.v|
+!i113 1
+R5
+R6
+R7

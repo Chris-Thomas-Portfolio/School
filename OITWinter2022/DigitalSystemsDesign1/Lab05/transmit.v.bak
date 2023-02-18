@@ -1,0 +1,81 @@
+//   Author: Chris Thomas
+//   Lab: Lab05
+//   Project: UART Transmit
+//   File Name: transmit.v
+//   List of other files used: N/A
+//-----------------------------------------------------------------------------
+//   Description of the Code:
+//   Create a state machine that handles transmitting the data whe necessary.
+//-----------------------------------------------------------------------------
+//   Date: 03/5/2022
+//   Version: 1.0
+//   Revision: N/A
+//-----------------------------------------------------------------------------
+module transmit(
+	input clk,
+	input but,
+	input [7:0] data,
+	output reg start_bit,
+	output reg stop_bit,
+	output reg data_out
+);
+
+reg [1:0] state;
+reg [3:0] count;
+
+parameter 	Idle = 2'b00,
+				Push = 2'b01,
+				Wait = 2'b10;
+
+initial
+	begin
+		start_bit <= 1;
+		stop_bit <= 0;
+		data_out <= 0;
+		state <= Idle;
+		count <= 0;
+	end
+				
+	always @(posedge clk)
+		begin
+			case(state)
+					Idle:													//idle state to reset outputs and wait for button push
+						begin
+							start_bit <= 1;
+							stop_bit <= 0;
+							count <= 0;
+							data_out <= 0;
+							
+							if(~but)
+								begin
+									start_bit <= 0;					//drive the start bit low to start transmit
+									state <= Push;
+								end
+							else
+								begin
+									state <= Idle;						//stay in idle state until button is pushed
+								end
+						end
+					Push:
+						begin
+							data_out <= data[count];				//output the data bits
+							if(count < 4'b1000)
+								begin
+									count <= count + 1;				//if count is less then the number of data bits
+									state <= Push;						//increment count and stay in push state
+								end
+							else
+								begin
+									count <= 0;							//reset count 
+									state <= Wait;						//Move to wait state
+								end
+						end
+					Wait:
+						begin
+							count <= 0;
+							stop_bit <= 1;								//send stop bit
+							state <= Idle;								//return to idle state
+						end
+			endcase
+		end
+endmodule

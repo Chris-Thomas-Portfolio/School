@@ -1,0 +1,363 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Lab03/ModelSim
+vbcd_tb
+Z1 !s110 1645829023
+!i10b 1
+!s100 ?R]M`D0>gYd[OD_TngNGP3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXfF9OWDeU3bGnh>0]z4bD0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1645806342
+8bcd_tb.v
+Fbcd_tb.v
+!i122 37
+Z4 L0 3 17
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1645829023.000000
+!s107 sel_tb.v|mux_case_tb.v|display_tb.v|demux_tb.v|counter_tb.v|bcd_tb.v|
+Z7 !s90 -reportprogress|300|bcd_tb.v|counter_tb.v|demux_tb.v|display_tb.v|mux_case_tb.v|sel_tb.v|
+!i113 1
+Z8 tCvgOpt 0
+vbcd_to_decimal
+R1
+!i10b 1
+!s100 F90=M:?Z7m=5B;DmHWAm^1
+R2
+IDz8IDNSBkgML`Xe:k@dGQ0
+R3
+R0
+w1643915534
+8../bcd_to_decimal.v
+F../bcd_to_decimal.v
+!i122 36
+Z9 L0 1 22
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 ../mux_display.v|../mux_case.v|../multiplexed_display.v|../demux.v|../counter.v|../control_generator.v|../clk_divider.v|../binary_to_bcd.v|../bcd_to_decimal.v|
+Z11 !s90 -reportprogress|300|../bcd_to_decimal.v|../binary_to_bcd.v|../clk_divider.v|../control_generator.v|../counter.v|../demux.v|../multiplexed_display.v|../mux_case.v|../mux_display.v|
+!i113 1
+R8
+vbinary_to_bcd
+R1
+!i10b 1
+!s100 lY]B1MzTE?NS1GA5@hlj:0
+R2
+I_VYi`:HWn>Di4H_=h6>eI0
+R3
+R0
+w1642698071
+8../binary_to_bcd.v
+F../binary_to_bcd.v
+!i122 36
+Z12 L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vclk_divider
+R1
+!i10b 1
+!s100 YU5Z`Z0YFS]YZQH0kGFV92
+R2
+I9M2NoAgZDTR<gB^9oUnF:0
+R3
+R0
+w1643916289
+8../clk_divider.v
+F../clk_divider.v
+!i122 36
+L0 1 26
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vcontrol_generator
+R1
+!i10b 1
+!s100 z_4P=QG>@nm^z^ZT_ElPZ3
+R2
+IXU`75h3@09?4mXCkhA]?^3
+R3
+R0
+w1645806713
+8../control_generator.v
+F../control_generator.v
+!i122 36
+Z13 L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vcount_tb
+!s110 1645763689
+!i10b 1
+!s100 9P>2B:blMz6_@H<LlXmm<0
+R2
+IDnWX0K^QgaWH_Pmo=cYHb1
+R3
+R0
+w1645763648
+Z14 8counter_tb.v
+Z15 Fcounter_tb.v
+!i122 1
+L0 3 21
+R5
+r1
+!s85 0
+31
+!s108 1645763689.000000
+!s107 display_tb.v|counter_tb.v|
+!s90 -reportprogress|300|counter_tb.v|display_tb.v|
+!i113 1
+R8
+vcounter
+R1
+!i10b 1
+!s100 FjIT8KG[Ui^T?7ZF7CDR_3
+R2
+I:nN246V8H7llSao_Dl`5F2
+R3
+R0
+w1643916413
+8../counter.v
+F../counter.v
+!i122 36
+R9
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vcounter_tb
+R1
+!i10b 1
+!s100 A6GnSA>P`?2Xok9_>=L]c2
+R2
+IB]bM0=3`0KP?ONA;b3A:H1
+R3
+R0
+w1645763897
+R14
+R15
+!i122 37
+L0 3 22
+R5
+r1
+!s85 0
+31
+R6
+Z16 !s107 sel_tb.v|mux_case_tb.v|display_tb.v|demux_tb.v|counter_tb.v|bcd_tb.v|
+R7
+!i113 1
+R8
+vdemux
+R1
+!i10b 1
+!s100 j6ZYefR6S5ka<6;`Y9j150
+R2
+Ikd:>Jkl:LOFRMK0UaBSK`0
+R3
+R0
+w1643914518
+8../demux.v
+F../demux.v
+!i122 36
+R13
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vdemux_tb
+R1
+!i10b 1
+!s100 4942<b?Ke=3l1X2@OhNJo0
+R2
+ILfB3;1A06aGJcLmhT[g4R3
+R3
+R0
+w1645827922
+8demux_tb.v
+Fdemux_tb.v
+!i122 37
+L0 3 23
+R5
+r1
+!s85 0
+31
+R6
+R16
+R7
+!i113 1
+R8
+vdisplay_tb
+R1
+!i10b 1
+!s100 LT3[DGgoKW<Xc[X3GR9ee1
+R2
+I>aSaTKEPZb5W6oWhSnCO>2
+R3
+R0
+w1645806204
+8display_tb.v
+Fdisplay_tb.v
+!i122 37
+R4
+R5
+r1
+!s85 0
+31
+R6
+R16
+R7
+!i113 1
+R8
+vmultiplexed_display
+R1
+!i10b 1
+!s100 [P;dbQ8_5Bz2HSVda>mnO1
+R2
+IEej;`hae@]^gzTQEP>F_Z1
+R3
+R0
+w1643913169
+8../multiplexed_display.v
+F../multiplexed_display.v
+!i122 36
+R12
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vmux_case
+R1
+!i10b 1
+!s100 FJ1CEk:Eohh_j``1HAg7b0
+R2
+IlQKZ>ZRKZ=3gAkm]?GZmR1
+R3
+R0
+w1643914983
+8../mux_case.v
+F../mux_case.v
+!i122 36
+L0 1 21
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vmux_case_tb
+R1
+!i10b 1
+!s100 YGZ8nBAO9Cen<9k6OZf8o2
+R2
+I9cP@F5m3lNOPXLG3J=cc>0
+R3
+R0
+w1645828426
+8mux_case_tb.v
+Fmux_case_tb.v
+!i122 37
+L0 3 28
+R5
+r1
+!s85 0
+31
+R6
+R16
+R7
+!i113 1
+R8
+vmux_display
+R1
+!i10b 1
+!s100 4gl]3NRfe?0XGTXU[1RKH1
+R2
+I72;YAJNzOG_4Y4]fOeS6P0
+R3
+R0
+w1643915907
+8../mux_display.v
+F../mux_display.v
+!i122 36
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+R10
+R11
+!i113 1
+R8
+vsel_tb
+R1
+!i10b 1
+!s100 <U56jJO`BL@k3G0>>l^JZ2
+R2
+Ia7n:kTNnKL@K?`I2mYiV=0
+R3
+R0
+w1645806874
+8sel_tb.v
+Fsel_tb.v
+!i122 37
+L0 3 18
+R5
+r1
+!s85 0
+31
+R6
+R16
+R7
+!i113 1
+R8

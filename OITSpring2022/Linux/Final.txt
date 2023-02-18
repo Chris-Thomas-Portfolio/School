@@ -1,0 +1,40 @@
+1.) const char *
+	which tells the file which mode to be opened in ie "r" for read.
+	
+2.)It is the number of input items successfully matched and assigned.
+
+3.) O_RONLY, O_WONLY, O_RDWR
+
+4.) -R lists the subdirectories recursively. -S sorts by the file size largest first
+
+5.)
+#include <stdio.h>
+#include <stdlib.h>         //for use of exit()
+#include <unistd.h>         //for use of fork() and execlp()
+int main()
+{
+    int pid;
+    int input;
+    int output;
+    pid = fork();
+    if(pid == 0)
+    {
+        dup2(input, 0);
+        dup2(output, 1);
+        execlp("ls", "ls", "-l", NULL);
+        printf("Failed\n");
+        exit(0);
+    }
+    return 0;
+}
+
+
+6.) mylist = {"Chris Thomas":541-499-1519, "Dave Jones":541-499-1357, "Mary Thompson":541-499-9873}
+
+7.)
+#!/usr/bin/bash
+VAR={0,1,2,3,4}
+for ii in VAR; do
+    time_something -t 1 -s 1000 >> timing.dat
+done
+~

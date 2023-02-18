@@ -1,0 +1,24 @@
+`timescale 1ns / 1ps
+
+module shifter_tb();
+
+reg [7:0] original;
+
+reg [2:0] amount;
+
+reg [1:0] opcode;
+
+wire [7:0] result;
+
+shifter U1(original, amount, opcode, result);
+
+initial
+	begin
+		original <= 8'b00000110;
+		amount 	<= 3'b001;
+		opcode	<= 2'b00;
+	end
+	
+	always
+		#5 amount <= 3'b000;
+		#5 amount <= 3'b001;

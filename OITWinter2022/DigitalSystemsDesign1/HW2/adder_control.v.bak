@@ -1,0 +1,35 @@
+module adder_control(
+	input clk,
+	input reset,
+	output load,
+	output shr,
+	output clr,
+	output done
+);
+
+	reg [1:0] state
+	
+	always @(posedge clk)
+		begin
+			case(state)
+				2'b00:
+					begin
+						load <= 1;
+						state <= 2'b01;
+					end
+				2'b01:
+					begin
+						shr <= 1;
+						state <= 2'b10;
+					end
+					
+				2'b10:
+					begin
+						clr <= 1;
+						state <= 2'b00;
+					end
+				default: state <= 2'b00;
+			endcase
+		end
+endmodule
+				

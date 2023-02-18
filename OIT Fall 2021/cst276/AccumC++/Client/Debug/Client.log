@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\OIT Fall 2021\cst276\AccumC++\Client\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OIT Fall 2021\cst276\AccumC++\Client\main.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Client.vcxproj -> C:\OIT Fall 2021\cst276\AccumC++\Debug\Client.exe

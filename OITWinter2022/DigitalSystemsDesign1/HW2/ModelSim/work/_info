@@ -1,0 +1,166 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/HW2/ModelSim
+vadder_control
+Z1 !s110 1646152519
+!i10b 1
+!s100 ]Rb_k3:oXB2LAO;iI=d:H2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQWXAW]ETnQUnbmMS;i_;M1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1646151174
+8../adder_control.v
+F../adder_control.v
+!i122 18
+L0 14 79
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1646152519.000000
+Z6 !s107 ../shift_reg.v|../full_adder.v|../dff.v|../adder_control.v|../HW2.v|
+Z7 !s90 -reportprogress|300|../HW2.v|../adder_control.v|../dff.v|../full_adder.v|../shift_reg.v|
+!i113 1
+Z8 tCvgOpt 0
+vadder_control_tb
+R1
+!i10b 1
+!s100 8Sc<^Rae:Ja_UEkchE3@l3
+R2
+IREKS<nA>gBQ@gSKgiYWz`3
+R3
+R0
+w1646150956
+8adder_control_tb.v
+Fadder_control_tb.v
+!i122 19
+L0 3 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 shift_reg_tb.v|adder_control_tb.v|
+Z9 !s90 -reportprogress|300|adder_control_tb.v|shift_reg_tb.v|
+!i113 1
+R8
+vdff
+R1
+!i10b 1
+!s100 Yc8l@OM9SMm90d14Y;97J0
+R2
+IHikIVCniR>ZeL9>@CcNN51
+R3
+R0
+w1646150398
+8../dff.v
+F../dff.v
+!i122 18
+L0 14 24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vfull_adder
+R1
+!i10b 1
+!s100 D;:a9OzS1JaTHdodV=^Cn3
+R2
+IjL5UfAb60af<LCfZkaNmZ1
+R3
+R0
+w1646150005
+8../full_adder.v
+F../full_adder.v
+!i122 18
+L0 14 11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vHW2
+R1
+!i10b 1
+!s100 1XzkZ0HH3nFYc<Kj0HYo_1
+R2
+ICzJnPNcg5dlVO;];V1X8E2
+R3
+R0
+w1646150160
+8../HW2.v
+F../HW2.v
+!i122 18
+L0 14 18
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@h@w2
+vshift_reg
+R1
+!i10b 1
+!s100 iRYYS0J`6I?=BBb4lH8]z2
+R2
+I<dN<OGRBdC>j4dfgWB80Y3
+R3
+R0
+w1646152433
+8../shift_reg.v
+F../shift_reg.v
+!i122 18
+L0 14 42
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vshift_reg_tb
+R1
+!i10b 1
+!s100 7GhB3Rzn]_4M=]Mg2YJFE0
+R2
+IXS?5oM?;2F]E>PY?AnLoo1
+R3
+R0
+w1646152509
+8shift_reg_tb.v
+Fshift_reg_tb.v
+!i122 19
+L0 3 29
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 shift_reg_tb.v|adder_control_tb.v|
+R9
+!i113 1
+R8

@@ -1,0 +1,6 @@
+module shifter(
+input [7:0] original,
+input [2:0] amount,
+input [1:0] opcode
+output reg [7:0] result
+);

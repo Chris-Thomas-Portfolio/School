@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\Chris\Desktop\School Stuff\EET 240\Projects\Week2_32Atmega_Demo_ChrisThomas\Week2_32Atmega_Demo_ChrisThomas\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Chris\Desktop\School Stuff\EET 240\Projects\Week2_32Atmega_Demo_ChrisThomas\Week2_32Atmega_Demo_ChrisThomas\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.3.300\avrasm\inc\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Chris\Desktop\School Stuff\EET 240\Projects\Week2_32Atmega_Demo_ChrisThomas\Week2_32Atmega_Demo_ChrisThomas\Debug\Week2_32Atmega_Demo_ChrisThomas.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Week2_32Atmega_Demo_ChrisThomas.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Week2_32Atmega_Demo_ChrisThomas.map</FILE>
+  <FILE>Week2_32Atmega_Demo_ChrisThomas.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Chris\Desktop\School Stuff\EET 240\Projects\Week2_32Atmega_Demo_ChrisThomas\Week2_32Atmega_Demo_ChrisThomas\main.asm</FILE><LINE>21</LINE></RESET>
+  <LOOP><FILE>C:\Users\Chris\Desktop\School Stuff\EET 240\Projects\Week2_32Atmega_Demo_ChrisThomas\Week2_32Atmega_Demo_ChrisThomas\main.asm</FILE><LINE>29</LINE></LOOP>
+  <DLY><FILE>C:\Users\Chris\Desktop\School Stuff\EET 240\Projects\Week2_32Atmega_Demo_ChrisThomas\Week2_32Atmega_Demo_ChrisThomas\main.asm</FILE><LINE>62</LINE></DLY>
+ </LABELS>
+</ASSEMBLER_INFO>

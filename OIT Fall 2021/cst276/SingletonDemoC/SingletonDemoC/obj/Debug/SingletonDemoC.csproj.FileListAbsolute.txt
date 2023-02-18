@@ -1,0 +1,7 @@
+C:\OIT Fall 2021\cst276\SingletonDemoC\SingletonDemoC\bin\Debug\SingletonDemoC.exe.config
+C:\OIT Fall 2021\cst276\SingletonDemoC\SingletonDemoC\bin\Debug\SingletonDemoC.exe
+C:\OIT Fall 2021\cst276\SingletonDemoC\SingletonDemoC\bin\Debug\SingletonDemoC.pdb
+C:\OIT Fall 2021\cst276\SingletonDemoC\SingletonDemoC\obj\Debug\SingletonDemoC.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\SingletonDemoC\SingletonDemoC\obj\Debug\SingletonDemoC.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\SingletonDemoC\SingletonDemoC\obj\Debug\SingletonDemoC.exe
+C:\OIT Fall 2021\cst276\SingletonDemoC\SingletonDemoC\obj\Debug\SingletonDemoC.pdb

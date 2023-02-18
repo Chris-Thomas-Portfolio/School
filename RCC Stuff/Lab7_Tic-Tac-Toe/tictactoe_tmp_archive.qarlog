@@ -1,0 +1,39 @@
+Quartus Prime Archive log --	C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/tictactoe_tmp_archive.qarlog
+
+Archive:	C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/tictactoe_tmp_archive.qar
+Date:		Fri Oct 27 17:20:52 2017
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/assignment_defaults.qdf
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/button_clock.vhd
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/clock.ppf
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/clock.qip
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/clock.v
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/clock_bb.v
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/debounce.vhd
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/decode_square.vhd
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/gameVGA_decode.vhd
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/gamelogic.v
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/phong.SDC
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/phong.qsf
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/phong.sdc
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/select_controller.vhd
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/tictactoe.qpf
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/tictactoe.v
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/vga_clk.ppf
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/vga_clk.qip
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/vga_clk.v
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/vga_clk_bb.v
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/video_controller.vhd
+C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/winner.v
+	======= Total: 22 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 27 17:20:53 2017
+Source archive file:	C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017vhdl/tictactoe_tmp_archive.qar
+Archive was extracted into	C:/Users/kevyn/Documents/hubiC/133/CST 133 2017/labs/lab5 2017 template/
+		 - successfully.

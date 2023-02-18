@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.6.364\avrasm\inc\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\Debug\LCD_ChrisThomas.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LCD_ChrisThomas.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LCD_ChrisThomas.map</FILE>
+  <FILE>LCD_ChrisThomas.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DELAY_2ms><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>122</LINE></DELAY_2ms>
+  <CMNDWRT><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>87</LINE></CMNDWRT>
+  <MSG><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>132</LINE></MSG>
+  <Loop><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>77</LINE></Loop>
+  <Here><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>85</LINE></Here>
+  <DATAWRT><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>97</LINE></DATAWRT>
+  <SDELAY><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>107</LINE></SDELAY>
+  <DELAY_100us><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>112</LINE></DELAY_100us>
+  <DR0><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>115</LINE></DR0>
+  <LDR0><FILE>F:\EET 240\LCD_Stepper2_ChrisThomas\LCD_ChrisThomas\LCD_ChrisThomas\main.asm</FILE><LINE>125</LINE></LDR0>
+ </LABELS>
+</ASSEMBLER_INFO>

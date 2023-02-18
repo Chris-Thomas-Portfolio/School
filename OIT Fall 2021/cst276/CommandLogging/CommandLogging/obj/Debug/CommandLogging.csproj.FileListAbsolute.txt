@@ -1,0 +1,14 @@
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\CommandLogging.exe.config
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\CommandLogging.exe
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\CommandLogging.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\Decorator.dll
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\SpreadSheet.dll
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\Command.dll
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\Decorator.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\SpreadSheet.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\bin\Debug\Command.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\obj\Debug\CommandLogging.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\obj\Debug\CommandLogging.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\obj\Debug\CommandLogging.csproj.CopyComplete
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\obj\Debug\CommandLogging.exe
+C:\OIT Fall 2021\cst276\CommandLogging\CommandLogging\obj\Debug\CommandLogging.pdb

@@ -1,0 +1,17 @@
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Client.exe
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Client.deps.json
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.json
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.dev.json
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Client.dll
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Client.pdb
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Accumulator.dll
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\bin\Debug\netcoreapp3.1\Accumulator.pdb
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfoInputs.cache
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfo.cs
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.csproj.CopyComplete
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.dll
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.pdb
+C:\OIT Fall 2021\cst276\AccumCSharp\Client\obj\Debug\netcoreapp3.1\Client.genruntimeconfig.cache

@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chris/Documents/EET 132/EET132Projects/Lab1/Adder/simulation/modelsim
+vAdder
+Z1 !s110 1587151515
+!i10b 1
+!s100 V2obCNB<nKICTAn<QZEMo3
+ISfUiSIFD6PD4ccU=DT_AX0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1587151258
+Z4 8Adder.vo
+Z5 FAdder.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1587151515.000000
+Z8 !s107 Adder.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Adder.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@adder
+vhard_block
+R1
+!i10b 1
+!s100 8cB4d@C]_J0<>>M1;W5GO2
+IoGMAP8Z3S^NC>cKAAO^Df1
+R2
+R0
+R3
+R4
+R5
+L0 265
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

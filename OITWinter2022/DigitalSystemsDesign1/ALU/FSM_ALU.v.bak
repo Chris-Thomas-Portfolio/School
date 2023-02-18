@@ -1,0 +1,83 @@
+module alu(
+input [2:0] opcode,
+input [3:0] A,
+input [3:0] B,
+input clk, reset,
+output reg [3:0] result,
+output cout, led_idle, led_ready, led_done
+);
+
+reg [2:0] state;
+
+parameter [2:0]   		Idle = 3'b000,
+                        Add = 3'b001,
+								Subtract
+                        NOTA = 3'b010,
+                        NOTB = 3'b011,
+                        AND = 3'b100,
+                        OR = 3'b101,
+                        XOR = 3'b110,
+                        XNOR = 3'b111;
+
+always @(posedge clk)
+    begin
+        if(reset)
+            begin
+                led_idle <= 1;
+                state <= 3'b000;
+            end
+        else
+            case(opcode)
+                add:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= a + b;
+                    end
+                subtract:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= a - b;
+                    end
+                NOTA:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= ~a;
+                    end
+                NOTB:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= ~b;
+                    end
+                AND:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= a & b;
+                    end
+                OR:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= a | b;
+                    end
+                XOR:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= a ^ b;
+                    end
+                XNOR:
+                    begin
+                        led_idle <= 0;
+                        led_done <= 1;
+                        result <= ~(a ^ b);
+                    end
+            endcase
+    end
+
+
+endmodule

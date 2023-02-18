@@ -1,0 +1,10 @@
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\bin\Debug\InternalCompositeIteratorLab.exe.config
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\bin\Debug\InternalCompositeIteratorLab.exe
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\bin\Debug\InternalCompositeIteratorLab.pdb
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\obj\Debug\InternalCompositeIteratorLab.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\obj\Debug\InternalCompositeIteratorLab.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\obj\Debug\InternalCompositeIteratorLab.csproj.CopyComplete
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\obj\Debug\InternalCompositeIteratorLab.exe
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\obj\Debug\InternalCompositeIteratorLab.pdb
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\bin\Debug\InternalCompositeIteratorFallLibrary2021.dll
+C:\OIT Fall 2021\cst276\InternalCompositeIteratorLab\InternalCompositeIteratorLab\bin\Debug\InternalCompositeIteratorFallLibrary2021.pdb

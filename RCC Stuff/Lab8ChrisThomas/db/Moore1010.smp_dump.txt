@@ -1,0 +1,8 @@
+
+State Machine - |Moore1010|state
+Name state.OneZeroOne state.OneZero state.One state.Zero state.OneZeroOneZero 
+state.Zero 0 0 0 0 0 
+state.One 0 0 1 1 0 
+state.OneZero 0 1 0 1 0 
+state.OneZeroOne 1 0 0 1 0 
+state.OneZeroOneZero 0 0 0 1 1 

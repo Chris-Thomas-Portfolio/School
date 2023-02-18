@@ -1,0 +1,144 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/Lab05/ModelSim
+vclk_divider
+Z1 !s110 1646688638
+!i10b 1
+!s100 CIFBK1?CWC_7jH5UhD<zA1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IC=LPQY8=[`>Y256^dN>000
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1646499651
+8../clk_divider.v
+F../clk_divider.v
+!i122 30
+L0 14 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1646688637.000000
+Z6 !s107 ../transmit_control.v|../transmit.v|../clk_divider.v|../Lab05.v|
+Z7 !s90 -reportprogress|300|../Lab05.v|../clk_divider.v|../transmit.v|../transmit_control.v|
+!i113 1
+Z8 tCvgOpt 0
+vLab05
+!s110 1646688637
+!i10b 1
+!s100 ^V72b78HFW0<YZ?43HN0C0
+R2
+Ic0aG5BGIJX0]M6DN]Hh@Y1
+R3
+R0
+w1646685336
+8../Lab05.v
+F../Lab05.v
+!i122 30
+L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@lab05
+vtransmit
+R1
+!i10b 1
+!s100 IL68hIiKE>YdSleA3geWk2
+R2
+IeShz]bkd:57JgilciZ=CN1
+R3
+R0
+w1646687886
+8../transmit.v
+F../transmit.v
+!i122 30
+L0 14 66
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtransmit_control
+R1
+!i10b 1
+!s100 8:V9EeKj0GJ[_l:C=lbN23
+R2
+InFLR_XLeF_eAD91JA>jkz3
+R3
+R0
+w1646686097
+8../transmit_control.v
+F../transmit_control.v
+!i122 30
+L0 14 52
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtransmit_control_tb
+R1
+!i10b 1
+!s100 BQDXcJYKMVcA0U>glhe`o3
+R2
+Ig^0;<lB3_YDJjQO<mnYXo2
+R3
+R0
+w1646514005
+8transmit_control_tb.v
+Ftransmit_control_tb.v
+!i122 31
+L0 3 22
+R4
+r1
+!s85 0
+31
+Z9 !s108 1646688638.000000
+!s107 transmit_tb.v|transmit_control_tb.v|
+Z10 !s90 -reportprogress|300|transmit_control_tb.v|transmit_tb.v|
+!i113 1
+R8
+vtransmit_tb
+R1
+!i10b 1
+!s100 PRSjMP5ANLVDj7KFGm9KV2
+R2
+IQaFY3J40NVR]moPRI]SX[2
+R3
+R0
+w1646688063
+8transmit_tb.v
+Ftransmit_tb.v
+!i122 31
+L0 3 26
+R4
+r1
+!s85 0
+31
+R9
+Z11 !s107 transmit_tb.v|transmit_control_tb.v|
+R10
+!i113 1
+R8

@@ -1,0 +1,17 @@
+module DEMUX1to2(
+input wire a,
+input wire Sel,
+output reg y,
+output reg z,
+output [9:1] LEDR;
+);
+
+always @(*)
+	if (Sel == 0)
+		y = a;
+	else
+		z = a;
+		
+assign LEDR[9:1] = 8'b00000000;
+
+endmodule 

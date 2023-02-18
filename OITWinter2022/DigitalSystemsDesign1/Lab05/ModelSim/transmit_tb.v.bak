@@ -1,0 +1,28 @@
+`timescale 1ns / 1ps
+
+module transmit_tb();
+
+reg clk, but;
+reg [7:0] data;
+
+wire start_bit, stop_bit, data_out;
+wire [1:0] state;
+wire [3:0] count;
+
+transmit			U1(clk, but, data, start_bit, stop_bit, data_out);
+
+initial
+	begin
+		clk <= 0;
+		but <= 1;
+		data <= 8'b01010101;
+		
+		#5 but <= 0;
+		#5 but <= 1;
+		
+	end
+	
+	always 
+	#5 clk <= ~clk;
+
+endmodule

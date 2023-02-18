@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chris.thomas.Lab.03", "chris.thomas.Lab.01.Potion\chris.thomas.Lab.01.Potion.vcxproj", "{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Debug|x64.ActiveCfg = Debug|x64
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Debug|x64.Build.0 = Debug|x64
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Debug|x86.Build.0 = Debug|Win32
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Release|x64.ActiveCfg = Release|x64
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Release|x64.Build.0 = Release|x64
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Release|x86.ActiveCfg = Release|Win32
+		{98F51CE7-D287-4612-BDA9-9DD07DF4DE2C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85E71634-EF02-4DF8-A729-BA1BCFA68A4D}
+	EndGlobalSection
+EndGlobal

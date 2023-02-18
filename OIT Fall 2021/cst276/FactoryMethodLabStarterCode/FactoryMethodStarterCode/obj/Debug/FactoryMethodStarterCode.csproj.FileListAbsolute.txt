@@ -1,0 +1,10 @@
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\bin\Debug\FactoryMethodStarterCode.exe.config
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\bin\Debug\FactoryMethodStarterCode.exe
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\bin\Debug\FactoryMethodStarterCode.pdb
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\bin\Debug\Logger.dll
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\bin\Debug\Logger.pdb
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\obj\Debug\FactoryMethodStarterCode.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\obj\Debug\FactoryMethodStarterCode.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\obj\Debug\FactoryMethodStarterCode.exe
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\obj\Debug\FactoryMethodStarterCode.pdb
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\FactoryMethodStarterCode\obj\Debug\FactoryMethodStarterCode.csproj.CopyComplete

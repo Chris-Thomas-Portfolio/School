@@ -1,0 +1,85 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+ENTITY video_controller IS
+
+PORT(
+		CLOCK_25				: IN STD_LOGIC;
+		hsyncOut				: OUT STD_LOGIC;
+		vsyncOut				: OUT STD_LOGIC;
+		xposOut 				: OUT INTEGER RANGE 0 to 1024;
+		yposOut				: OUT INTEGER RANGE 0 to 1024
+);
+
+END video_controller;
+
+ARCHITECTURE behavioral of video_controller IS
+signal xpos: INTEGER RANGE 0 to 1024;
+signal ypos: INTEGER RANGE 0 to 1024;
+signal endline: STD_LOGIC;
+signal hsync: STD_LOGIC;
+signal vsync: STD_LOGIC;
+BEGIN
+
+
+
+	PROCESS(CLOCK_25) BEGIN
+		IF(rising_edge(CLOCK_25)) THEN
+			IF(xpos = 799) THEN
+				endline <= '1'; 
+			ELSE 
+				endline <= '0'; 
+			END IF;
+		END IF;
+	END PROCESS;
+
+	PROCESS(CLOCK_25) BEGIN
+		IF(rising_edge(CLOCK_25)) THEN
+			IF(endline = '1') THEN
+				xpos <= 0; 
+			ELSE 
+				xpos <= xpos + 1; 
+			END IF;
+		END IF;
+	END PROCESS;
+
+	
+	PROCESS(CLOCK_25) BEGIN
+		IF(rising_edge(CLOCK_25)) THEN
+			IF(endline = '1') THEN
+				IF(ypos = 520) THEN
+					ypos <= 0; 
+				ELSE 
+					ypos <= ypos + 1; 
+				END IF;
+			END IF;
+		END IF;
+	END PROCESS;
+	
+	
+	PROCESS(CLOCK_25) BEGIN
+		IF(rising_edge(CLOCK_25)) THEN
+			
+			IF((xpos > 664) and (xpos <= 759)) THEN
+				hsync <= '0';
+			ELSE 
+				hsync <= '1';
+			END IF;
+			
+			IF((ypos = 490) or (ypos = 491)) THEN 
+				vsync <= '0';
+			ELSE 
+				vsync <= '1';
+			END IF;
+			
+		END IF;
+	END PROCESS;
+	
+hsyncOut <= hsync;
+vsyncOut <= vsync;
+xposOut <= xpos;
+yposOut <= ypos;
+
+END behavioral;
+

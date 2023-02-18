@@ -1,0 +1,189 @@
+# Reading pref.tcl
+# do Lab02_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02 {C:/OITWinter2022/DigitalSystemsDesign1/Lab02/bcd_decimal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:06 on Jan 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02" C:/OITWinter2022/DigitalSystemsDesign1/Lab02/bcd_decimal.v 
+# -- Compiling module bcd_decimal
+# 
+# Top level modules:
+# 	bcd_decimal
+# End time: 19:03:06 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02 {C:/OITWinter2022/DigitalSystemsDesign1/Lab02/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:07 on Jan 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02" C:/OITWinter2022/DigitalSystemsDesign1/Lab02/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 19:03:07 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02 {C:/OITWinter2022/DigitalSystemsDesign1/Lab02/bcd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:07 on Jan 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02" C:/OITWinter2022/DigitalSystemsDesign1/Lab02/bcd.v 
+# -- Compiling module bcd
+# 
+# Top level modules:
+# 	bcd
+# End time: 19:03:07 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02 {C:/OITWinter2022/DigitalSystemsDesign1/Lab02/clk_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:07 on Jan 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02" C:/OITWinter2022/DigitalSystemsDesign1/Lab02/clk_divider.v 
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	clk_divider
+# End time: 19:03:07 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02 {C:/OITWinter2022/DigitalSystemsDesign1/Lab02/lab02.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:07 on Jan 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab02" C:/OITWinter2022/DigitalSystemsDesign1/Lab02/lab02.v 
+# -- Compiling module Lab02
+# 
+# Top level modules:
+# 	Lab02
+# End time: 19:03:08 on Jan 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+cd C:/OITWinter2022/digitalSystemsDesign1/lab02/ModelSim
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+do bcd_decimal_tb
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:37 on Jan 25,2022
+# vlog -reportprogress 300 ../Lab02.v ../bcd.v ../bcd_decimal.v ../clk_divider.v ../counter.v 
+# -- Compiling module Lab02
+# -- Compiling module bcd
+# -- Compiling module bcd_decimal
+# -- Compiling module clk_divider
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	Lab02
+# End time: 19:03:37 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:37 on Jan 25,2022
+# vlog -reportprogress 300 bcd_decimal_tb.v bcd_tb.v testbench.v 
+# -- Compiling module bcd_decimal_tb
+# -- Compiling module bcd_tb
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	bcd_decimal_tb
+# 	bcd_tb
+# 	testbench
+# End time: 19:03:37 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.bcd_decimal_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 19:03:38 on Jan 25,2022
+# Loading work.bcd_decimal_tb
+# Loading work.bcd_decimal
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/clk'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/reset_n'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/enable'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/count'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/clk'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/reset_n'.
+# Executing ONERROR command at macro ./wave.do line 10
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/enable'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/count'.
+# Executing ONERROR command at macro ./wave.do line 12
+do bcd_decimal_tb
+# End time: 19:04:58 on Jan 25,2022, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:04:58 on Jan 25,2022
+# vlog -reportprogress 300 ../Lab02.v ../bcd.v ../bcd_decimal.v ../clk_divider.v ../counter.v 
+# -- Compiling module Lab02
+# -- Compiling module bcd
+# -- Compiling module bcd_decimal
+# -- Compiling module clk_divider
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	Lab02
+# End time: 19:04:59 on Jan 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:04:59 on Jan 25,2022
+# vlog -reportprogress 300 bcd_decimal_tb.v bcd_tb.v testbench.v 
+# -- Compiling module bcd_decimal_tb
+# -- Compiling module bcd_tb
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	bcd_decimal_tb
+# 	bcd_tb
+# 	testbench
+# End time: 19:04:59 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.bcd_decimal_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 19:04:59 on Jan 25,2022
+# Loading work.bcd_decimal_tb
+# Loading work.bcd_decimal
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_bcd_decimal.do line 6
+do bcd_decimal_tb
+# End time: 19:06:36 on Jan 25,2022, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:06:36 on Jan 25,2022
+# vlog -reportprogress 300 ../Lab02.v ../bcd.v ../bcd_decimal.v ../clk_divider.v ../counter.v 
+# -- Compiling module Lab02
+# -- Compiling module bcd
+# -- Compiling module bcd_decimal
+# -- Compiling module clk_divider
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	Lab02
+# End time: 19:06:37 on Jan 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:06:37 on Jan 25,2022
+# vlog -reportprogress 300 bcd_decimal_tb.v bcd_tb.v testbench.v 
+# -- Compiling module bcd_decimal_tb
+# -- Compiling module bcd_tb
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	bcd_decimal_tb
+# 	bcd_tb
+# 	testbench
+# End time: 19:06:37 on Jan 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.bcd_decimal_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 19:06:37 on Jan 25,2022
+# Loading work.bcd_decimal_tb
+# Loading work.bcd_decimal
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_bcd_decimal.do line 6
+# End time: 19:10:48 on Jan 25,2022, Elapsed time: 0:04:11
+# Errors: 0, Warnings: 0

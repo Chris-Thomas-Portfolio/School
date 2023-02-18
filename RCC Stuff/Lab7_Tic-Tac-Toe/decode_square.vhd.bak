@@ -1,0 +1,112 @@
+--------------------------------------------------------------------------------
+--
+--   FileName:         decode_square.vhd
+--   Dependencies:     none
+--   Design Software:  Quartus Prime Standard Edition
+--
+--   HDL CODE IS PROVIDED "AS IS."
+--
+--   Version History
+--   Version 1.0 26.10.17 Kevin Pintong
+--     Initial Public Release
+--
+--------------------------------------------------------------------------------
+-- Verilog equivalent:
+-- module decode_square(
+-- input [2:0] pos1,
+-- input [2:0] pos2,
+-- input [2:0] pos3,
+-- input [2:0] pos4,
+-- input [2:0] pos5,
+-- input [2:0] pos6,
+-- input [2:0] pos7,
+-- input [2:0] pos8,
+-- input [2:0] pos9,
+-- output ren1,
+-- output ren2,
+-- output ren3,
+-- output ren4,
+-- output ren5,
+-- output ren6,
+-- output ren7,
+-- output ren8,
+-- output ren9,
+-- output bluen1,
+-- output bluen2,
+-- output bluen3,
+-- output bluen4,
+-- output bluen5,
+-- output bluen6,
+-- output bluen7,
+-- output bluen8,
+-- output bluen9,
+-- output clk
+--);
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY decode_square IS
+  GENERIC(
+    counter_size  :  INTEGER := 23); --counter size (19 bits gives 10.5ms with 50MHz clock)
+  PORT(
+    pos1     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos2     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos3     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos4     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos5     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos6     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos7     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos8     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 pos9     : IN  STD_LOGIC_VECTOR(2 DOWNTO 0);  
+	 ren1		 : OUT  STD_LOGIC;
+	 ren2		 : OUT  STD_LOGIC;
+	 ren3		 : OUT  STD_LOGIC;
+	 ren4		 : OUT  STD_LOGIC;
+	 ren5		 : OUT  STD_LOGIC;
+	 ren6		 : OUT  STD_LOGIC;
+	 ren7		 : OUT  STD_LOGIC;
+	 ren8		 : OUT  STD_LOGIC;
+	 ren9		 : OUT  STD_LOGIC;
+	 bluen1	 : OUT  STD_LOGIC;
+	 bluen2	 : OUT  STD_LOGIC;
+	 bluen3	 : OUT  STD_LOGIC;
+	 bluen4	 : OUT  STD_LOGIC;
+	 bluen5	 : OUT  STD_LOGIC;
+	 bluen6	 : OUT  STD_LOGIC;
+	 bluen7	 : OUT  STD_LOGIC;
+	 bluen8	 : OUT  STD_LOGIC;
+	 bluen9	 : OUT  STD_LOGIC;
+	 clk		 : IN  STD_LOGIC
+	 );
+END decode_square;
+
+ARCHITECTURE logic OF decode_square IS
+
+BEGIN
+
+  
+ ren1 <= pos1(0);
+ ren2 <= pos2(0);
+ ren3 <= pos3(0);
+ ren4 <= pos4(0);
+ ren5 <= pos5(0);
+ ren6 <= pos6(0);
+ ren7 <= pos7(0);
+ ren8 <= pos8(0);
+ ren9 <= pos9(0);
+
+ bluen1 <= pos1(1); 
+ bluen2 <= pos2(1); 
+ bluen3 <= pos3(1); 
+ bluen4 <= pos4(1); 
+ bluen5 <= pos5(1); 
+ bluen6 <= pos6(1); 
+ bluen7 <= pos7(1);
+ bluen8 <= pos8(1); 
+ bluen9 <= pos9(1);
+  
+  
+END logic;
+

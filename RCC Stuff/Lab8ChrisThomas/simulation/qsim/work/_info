@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chris/Documents/EET 132/EET132Projects/Lab8ChrisThomas/simulation/qsim
+vhard_block
+Z1 !s110 1598461872
+!i10b 1
+!s100 oF9@MRD7iLe5akF=EHb3[3
+I:5606Z?<fb@3hXZ?;68P51
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1598461870
+Z4 8Moore1010.vo
+Z5 FMoore1010.vo
+L0 573
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1598461872.000000
+Z8 !s107 Moore1010.vo|
+Z9 !s90 -work|work|Moore1010.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vMoore1010
+R1
+!i10b 1
+!s100 [Z?`X60KKH3K5_a7@PEVk3
+IB`Yz=8cJOkznJJjOUCHhi2
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@moore1010
+vMoore1010_vlg_vec_tst
+R1
+!i10b 1
+!s100 h]g<`J?hR_LefQmiS>khi2
+I9XbkOC;Qb]S7l6UJeE_Dn0
+R2
+R0
+w1598461869
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@moore1010_vlg_vec_tst

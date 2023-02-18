@@ -1,0 +1,166 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OITWinter2022/DigitalSystemsDesign1/ALU/ModelSim
+vALU
+Z1 !s110 1645682528
+!i10b 1
+!s100 85GB9da2NL@AeaUV1c?<z0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<85BaX13_TFPTlF[gGVjl3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1645682045
+Z4 8../ALU.v
+Z5 F../ALU.v
+!i122 63
+L0 1 18
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1645682528.000000
+Z8 !s107 ../go.v|../fsm_alu.v|../ALU.v|
+Z9 !s90 -reportprogress|300|../ALU.v|../fsm_alu.v|../go.v|
+!i113 1
+Z10 tCvgOpt 0
+n@a@l@u
+valu
+!s110 1645670325
+!i10b 1
+!s100 4Nn`RiEW3GUo]ZWW<BZEk1
+R2
+I5XoW`VG=1SXG9kN0RahAo2
+R3
+R0
+w1645670167
+R4
+R5
+!i122 27
+L0 1 4
+R6
+r1
+!s85 0
+31
+!s108 1645670325.000000
+!s107 ../go.v|../ALU.v|
+!s90 -reportprogress|300|../ALU.v|../go.v|
+!i113 1
+R10
+vfsm_alu
+R1
+!i10b 1
+!s100 j7Y>P5gkYTXgS6PB^>lKP2
+R2
+I1ZX18m>794iRjPAK5a9[K0
+R3
+R0
+w1645680315
+8../fsm_alu.v
+F../fsm_alu.v
+!i122 63
+L0 1 146
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vfsm_alu_tb
+Z11 !s110 1645682529
+!i10b 1
+!s100 z:7L=cCIj79[`6a:>j_I@1
+R2
+IO1NUCJ4lB1HeZ==H7V6^D2
+R3
+R0
+w1645678975
+8fsm_alu_tb.v
+Ffsm_alu_tb.v
+!i122 64
+L0 3 58
+R6
+r1
+!s85 0
+31
+R7
+!s107 top_tb.v|go_tb.v|fsm_alu_tb.v|
+Z12 !s90 -reportprogress|300|fsm_alu_tb.v|go_tb.v|top_tb.v|
+!i113 1
+R10
+vgo
+R1
+!i10b 1
+!s100 5DDX8]b]7mDk90L<fN?332
+R2
+IHW3I7SQXL:20U216iC6`U0
+R3
+R0
+w1645671706
+8../go.v
+F../go.v
+!i122 63
+L0 1 66
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vgo_tb
+R11
+!i10b 1
+!s100 4_cl296bY^MREK=Ef`=gE2
+R2
+I]m]jLY>`D9Z20keU?>04b3
+R3
+R0
+w1645668885
+8go_tb.v
+Fgo_tb.v
+!i122 64
+L0 3 34
+R6
+r1
+!s85 0
+31
+R7
+Z13 !s107 top_tb.v|go_tb.v|fsm_alu_tb.v|
+R12
+!i113 1
+R10
+vtop_tb
+R11
+!i10b 1
+!s100 ]oELzz4M@G=K?1_Qz4T@k2
+R2
+I5Q4>mNGKj9G1JJHfP6nSZ1
+R3
+R0
+w1645682518
+8top_tb.v
+Ftop_tb.v
+!i122 64
+L0 3 62
+R6
+r1
+!s85 0
+31
+R7
+R13
+R12
+!i113 1
+R10

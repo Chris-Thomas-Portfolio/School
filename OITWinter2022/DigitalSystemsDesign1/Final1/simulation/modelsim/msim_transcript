@@ -1,0 +1,104 @@
+# Reading pref.tcl
+# do Final1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final1 {C:/OITWinter2022/DigitalSystemsDesign1/Final1/Final1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:18:09 on Mar 12,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final1" C:/OITWinter2022/DigitalSystemsDesign1/Final1/Final1.v 
+# -- Compiling module Final1
+# 
+# Top level modules:
+# 	Final1
+# End time: 15:18:09 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final1 {C:/OITWinter2022/DigitalSystemsDesign1/Final1/clk_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:18:10 on Mar 12,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final1" C:/OITWinter2022/DigitalSystemsDesign1/Final1/clk_divider.v 
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	clk_divider
+# End time: 15:18:10 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final1 {C:/OITWinter2022/DigitalSystemsDesign1/Final1/taillight_FSM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:18:10 on Mar 12,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final1" C:/OITWinter2022/DigitalSystemsDesign1/Final1/taillight_FSM.v 
+# -- Compiling module taillight_FSM
+# 
+# Top level modules:
+# 	taillight_FSM
+# End time: 15:18:10 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+cd ModelSim
+cd taillight_FSM_tb.TCL
+# couldn't change working directory to "taillight_FSM_tb.TCL": not a directory
+do taillight_FSM_tb.TCL
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:18:59 on Mar 12,2022
+# vlog -reportprogress 300 ../Final1.v ../clk_divider.v ../taillight_FSM.v 
+# -- Compiling module Final1
+# -- Compiling module clk_divider
+# -- Compiling module taillight_FSM
+# 
+# Top level modules:
+# 	Final1
+# End time: 15:18:59 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:18:59 on Mar 12,2022
+# vlog -reportprogress 300 taillight_FSM_tb.v 
+# -- Compiling module taillight_FSM_tb
+# 
+# Top level modules:
+# 	taillight_FSM_tb
+# End time: 15:18:59 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.taillight_FSM_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 15:18:59 on Mar 12,2022
+# Loading work.taillight_FSM_tb
+# Loading work.taillight_FSM
+do taillight_FSM_tb.TCL
+# End time: 15:20:07 on Mar 12,2022, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:20:07 on Mar 12,2022
+# vlog -reportprogress 300 ../Final1.v ../clk_divider.v ../taillight_FSM.v 
+# -- Compiling module Final1
+# -- Compiling module clk_divider
+# -- Compiling module taillight_FSM
+# 
+# Top level modules:
+# 	Final1
+# End time: 15:20:07 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:20:07 on Mar 12,2022
+# vlog -reportprogress 300 taillight_FSM_tb.v 
+# -- Compiling module taillight_FSM_tb
+# 
+# Top level modules:
+# 	taillight_FSM_tb
+# End time: 15:20:07 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.taillight_FSM_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 15:20:07 on Mar 12,2022
+# Loading work.taillight_FSM_tb
+# Loading work.taillight_FSM
+# End time: 15:28:05 on Mar 12,2022, Elapsed time: 0:07:58
+# Errors: 0, Warnings: 0

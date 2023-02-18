@@ -1,0 +1,16 @@
+module mux8generic
+#(parameter N = 8)
+(input wire[N-7:0]x,
+input wire[N-7:0]y,
+input wire s,
+output reg[N-7:0]m,
+output LEDR[9:4]
+);
+
+always @(*)
+	if(s == 0)
+		m = x;
+	else
+		m = y;
+		
+endmodule

@@ -1,0 +1,63 @@
+module up_down_counter(
+	input clk, 
+	input up_dn,  					// count up or down selection
+	input LD,  						// load data
+	input reset,  					// reset
+	input [7:0] D,  				// data 
+	output [7:0] out
+	);
+	
+	reg [7:0] r_D = 8'b00000000;  // register for holding data
+	
+	// states
+	localparam idle = 0;
+	localparam count = 1; 
+	localparam rst = 2; 
+	
+	reg [1:0] STATE = idle;  // register to hold state
+	
+
+	always @ (posedge clk)  
+		begin 
+			case (STATE)
+				
+				idle : 
+					begin 
+						if (LD && reset)  			//if LD and reset are both high do this
+							begin 
+								r_D <= D;   			// register the input data
+								STATE <= count;  	 	// change the state to count
+							end  							// end of if statement
+						else if (!LD && reset)  	// if LD is low
+							begin 	
+								r_D <= 8'b00000000;  // keep the data register as is
+								STATE <= idle; 		// keep state in idle
+							end  							// else if 
+						else   							// if the reset is low
+							STATE <= rst;	
+					end   								// end of case idle
+					
+				count :
+					begin 
+						if (up_dn && reset) 				// if the direction is down, count down
+							r_D <= r_D - 1;
+						else if (!up_dn && reset) 	 	// if the direction is up, count up
+							r_D <= r_D + 1;
+						else 
+							STATE <= rst; 
+					end  										// end of count case 
+				
+				rst : 
+					begin 
+						r_D <= 8'b00000000;				//reset data to all 0's
+					end 										 // end of reset
+				
+				default : STATE <= idle;  // default state
+			endcase 
+		end 
+		
+		
+	// output assignments 
+	assign out = reset ? r_D : 8'b00000000;  // if reset goes low, reset counter
+	
+endmodule  // up_down_counter

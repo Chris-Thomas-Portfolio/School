@@ -1,0 +1,15 @@
+﻿  BackPack.cpp
+  Character.cpp
+C:\RCC Stuff\C++\chris.thomas.Lab.08.ArenaBattle\chris.thomas.Lab.08.ArenaBattle\Character.cpp(185,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CharCreation.cpp
+  CoinPouch.cpp
+  Potion.cpp
+  String.cpp
+C:\RCC Stuff\C++\chris.thomas.Lab.08.ArenaBattle\chris.thomas.Lab.08.ArenaBattle\String.cpp(45,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\RCC Stuff\C++\chris.thomas.Lab.08.ArenaBattle\chris.thomas.Lab.08.ArenaBattle\String.cpp(64,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\RCC Stuff\C++\chris.thomas.Lab.08.ArenaBattle\chris.thomas.Lab.08.ArenaBattle\String.cpp(85,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\RCC Stuff\C++\chris.thomas.Lab.08.ArenaBattle\chris.thomas.Lab.08.ArenaBattle\String.cpp(108,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Stub.cpp
+  Troll.cpp
+  Generating Code...
+  chris.thomas.Lab.08.ArenaBattle.vcxproj -> C:\RCC Stuff\C++\chris.thomas.Lab.08.ArenaBattle\x64\Debug\chris.thomas.Lab.08.ArenaBattle.exe

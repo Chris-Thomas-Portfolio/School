@@ -1,0 +1,103 @@
+# Reading pref.tcl
+# do Final2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2 {C:/OITWinter2022/DigitalSystemsDesign1/Final2/Final2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:32:33 on Mar 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2" C:/OITWinter2022/DigitalSystemsDesign1/Final2/Final2.v 
+# -- Compiling module Final2
+# 
+# Top level modules:
+# 	Final2
+# End time: 12:32:33 on Mar 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2 {C:/OITWinter2022/DigitalSystemsDesign1/Final2/clk_FSM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:32:34 on Mar 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2" C:/OITWinter2022/DigitalSystemsDesign1/Final2/clk_FSM.v 
+# -- Compiling module clk_FSM
+# 
+# Top level modules:
+# 	clk_FSM
+# End time: 12:32:34 on Mar 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2 {C:/OITWinter2022/DigitalSystemsDesign1/Final2/clk_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:32:34 on Mar 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2" C:/OITWinter2022/DigitalSystemsDesign1/Final2/clk_divider.v 
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	clk_divider
+# End time: 12:32:34 on Mar 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2 {C:/OITWinter2022/DigitalSystemsDesign1/Final2/binary_to_bcd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:32:34 on Mar 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2" C:/OITWinter2022/DigitalSystemsDesign1/Final2/binary_to_bcd.v 
+# -- Compiling module binary_to_bcd
+# 
+# Top level modules:
+# 	binary_to_bcd
+# End time: 12:32:34 on Mar 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2 {C:/OITWinter2022/DigitalSystemsDesign1/Final2/seven_seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:32:34 on Mar 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Final2" C:/OITWinter2022/DigitalSystemsDesign1/Final2/seven_seg.v 
+# -- Compiling module seven_seg
+# 
+# Top level modules:
+# 	seven_seg
+# End time: 12:32:34 on Mar 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+cd ModelSim
+do seven_seg_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:33:52 on Mar 14,2022
+# vlog -reportprogress 300 ../Final2.v ../binary_to_bcd.v ../clk_FSM.v ../clk_divider.v ../seven_seg.v 
+# -- Compiling module Final2
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_FSM
+# -- Compiling module clk_divider
+# -- Compiling module seven_seg
+# 
+# Top level modules:
+# 	Final2
+# End time: 12:33:52 on Mar 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:33:52 on Mar 14,2022
+# vlog -reportprogress 300 binary_to_bcd_tb.v clk_FSM_tb.v seven_seg_tb.v 
+# -- Compiling module binary_to_bcd_tb
+# -- Compiling module clk_FSM_tb
+# -- Compiling module seven_seg_tb
+# 
+# Top level modules:
+# 	binary_to_bcd_tb
+# 	clk_FSM_tb
+# 	seven_seg_tb
+# End time: 12:33:52 on Mar 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.seven_seg_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 12:33:53 on Mar 14,2022
+# Loading work.seven_seg_tb
+# Loading work.seven_seg
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_seven_seg.do line 6
+# End time: 12:34:41 on Mar 14,2022, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0

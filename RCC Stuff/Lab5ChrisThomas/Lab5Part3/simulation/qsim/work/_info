@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chris/Documents/EET 132/EET132Projects/Lab5ChrisThomas/Lab5Part3/simulation/qsim
+vhard_block
+Z1 !s110 1590892110
+!i10b 1
+!s100 [OMfX;9m0B]MXVOLGhjbd2
+IkJQhjncO4CjBO58fiTkn23
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1590892109
+Z4 8Lab5Part3.vo
+Z5 FLab5Part3.vo
+L0 435
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1590892110.000000
+Z8 !s107 Lab5Part3.vo|
+Z9 !s90 -work|work|Lab5Part3.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLab5Part3
+R1
+!i10b 1
+!s100 QSGIT^H_@WE:OMP`_MPQC3
+I6c4@haT;cOmL85_=m[R8=3
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@lab5@part3
+vLab5Part3_vlg_vec_tst
+R1
+!i10b 1
+!s100 AkSP5m62SmAa<WBCZ0b011
+IRQmSX9NS8gm;_1Bm@=cFU2
+R2
+R0
+w1590892108
+8Part3.vwf.vt
+FPart3.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Part3.vwf.vt|
+!s90 -work|work|Part3.vwf.vt|
+!i113 1
+R10
+R11
+n@lab5@part3_vlg_vec_tst

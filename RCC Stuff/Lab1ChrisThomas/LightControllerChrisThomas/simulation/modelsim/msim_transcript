@@ -1,0 +1,45 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do LightControllerChrisThomas_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Chris/Documents/EET\ 132/EET132Projects/Lab1 {C:/Users/Chris/Documents/EET 132/EET132Projects/Lab1/LightControllerChrisThomas.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:21:12 on Apr 10,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab1" C:/Users/Chris/Documents/EET 132/EET132Projects/Lab1/LightControllerChrisThomas.v 
+# -- Compiling module LightControllerChrisThomas
+# 
+# Top level modules:
+# 	LightControllerChrisThomas
+# End time: 12:21:13 on Apr 10,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.LightControllerChrisThomas
+# vsim work.LightControllerChrisThomas 
+# Start time: 12:21:37 on Apr 10,2020
+# Loading work.LightControllerChrisThomas
+add wave -position insertpoint  \
+sim:/LightControllerChrisThomas/x1 \
+sim:/LightControllerChrisThomas/x2 \
+sim:/LightControllerChrisThomas/f
+force -freeze sim:/LightControllerChrisThomas/x1 0 0
+force -freeze sim:/LightControllerChrisThomas/x2 0 0
+run
+force -freeze sim:/LightControllerChrisThomas/x1 1 0
+force -freeze sim:/LightControllerChrisThomas/x2 0 0
+run
+force -freeze sim:/LightControllerChrisThomas/x1 0 0
+force -freeze sim:/LightControllerChrisThomas/x2 1 0
+run
+force -freeze sim:/LightControllerChrisThomas/x1 1 0
+force -freeze sim:/LightControllerChrisThomas/x2 1 0
+run
+# End time: 12:25:34 on Apr 10,2020, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 0

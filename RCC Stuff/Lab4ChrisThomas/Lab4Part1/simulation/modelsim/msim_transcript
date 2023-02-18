@@ -1,0 +1,62 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do display7seg_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Chris/Documents/EET\ 132/EET132Projects/Lab4ChrisThomas/Lab4Part1 {C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/display7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:56:19 on May 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1" C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/display7seg.v 
+# -- Compiling module display7seg
+# 
+# Top level modules:
+# 	display7seg
+# End time: 12:56:19 on May 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Chris/Documents/EET\ 132/EET132Projects/Lab4ChrisThomas/Lab4Part1 {C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/bcd7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:56:19 on May 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1" C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/bcd7seg.v 
+# -- Compiling module bcd7seg
+# 
+# Top level modules:
+# 	bcd7seg
+# End time: 12:56:19 on May 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.display7seg
+# vsim work.display7seg 
+# Start time: 12:56:25 on May 23,2020
+# Loading work.display7seg
+# Loading work.bcd7seg
+# ** Warning: (vsim-3015) C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/display7seg.v(14): [PCDPC] - Port size (7) does not match connection size (1) for port 'H'. The port definition is at: C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/bcd7seg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /display7seg/digit0 File: C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/bcd7seg.v
+add wave -position insertpoint  \
+sim:/display7seg/HEX1
+add wave -position insertpoint  \
+sim:/display7seg/SW
+force -freeze sim:/display7seg/SW 0000001 0
+run
+force -freeze sim:/display7seg/HEX1 0000010 0
+run
+noforce sim:/display7seg/HEX1
+force -freeze sim:/display7seg/SW 00000010 0
+run
+restart
+# ** Warning: (vsim-3015) C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/display7seg.v(14): [PCDPC] - Port size (7) does not match connection size (1) for port 'H'. The port definition is at: C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/bcd7seg.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /display7seg/digit0 File: C:/Users/Chris/Documents/EET 132/EET132Projects/Lab4ChrisThomas/Lab4Part1/bcd7seg.v
+force -freeze sim:/display7seg/SW 00000001 0
+run
+force -freeze sim:/display7seg/SW 00000010 0
+run
+force -freeze sim:/display7seg/SW 10101010 0
+run
+# End time: 13:10:38 on May 23,2020, Elapsed time: 0:14:13
+# Errors: 0, Warnings: 2

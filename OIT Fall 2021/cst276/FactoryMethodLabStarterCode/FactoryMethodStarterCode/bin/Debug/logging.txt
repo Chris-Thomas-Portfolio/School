@@ -1,0 +1,15 @@
+Log message
+Error Message
+Fatal Message
+Log message
+Error Message
+Fatal Message
+Log message
+Error Message
+Fatal Message
+Log message
+Error Message
+Fatal Message
+Log message
+Error Message
+Fatal Message

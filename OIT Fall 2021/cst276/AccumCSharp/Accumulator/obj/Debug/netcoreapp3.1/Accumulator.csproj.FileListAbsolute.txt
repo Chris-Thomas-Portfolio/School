@@ -1,0 +1,10 @@
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\bin\Debug\netcoreapp3.1\Accumulator.deps.json
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\bin\Debug\netcoreapp3.1\Accumulator.dll
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\bin\Debug\netcoreapp3.1\Accumulator.pdb
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\obj\Debug\netcoreapp3.1\Accumulator.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\obj\Debug\netcoreapp3.1\Accumulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\obj\Debug\netcoreapp3.1\Accumulator.AssemblyInfoInputs.cache
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\obj\Debug\netcoreapp3.1\Accumulator.AssemblyInfo.cs
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\obj\Debug\netcoreapp3.1\Accumulator.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\obj\Debug\netcoreapp3.1\Accumulator.dll
+C:\OIT Fall 2021\cst276\AccumCSharp\Accumulator\obj\Debug\netcoreapp3.1\Accumulator.pdb

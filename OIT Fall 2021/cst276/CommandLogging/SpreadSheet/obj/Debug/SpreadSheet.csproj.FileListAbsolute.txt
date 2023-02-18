@@ -1,0 +1,6 @@
+C:\OIT Fall 2021\cst276\CommandLogging\SpreadSheet\bin\Debug\SpreadSheet.dll
+C:\OIT Fall 2021\cst276\CommandLogging\SpreadSheet\bin\Debug\SpreadSheet.pdb
+C:\OIT Fall 2021\cst276\CommandLogging\SpreadSheet\obj\Debug\SpreadSheet.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\CommandLogging\SpreadSheet\obj\Debug\SpreadSheet.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\CommandLogging\SpreadSheet\obj\Debug\SpreadSheet.dll
+C:\OIT Fall 2021\cst276\CommandLogging\SpreadSheet\obj\Debug\SpreadSheet.pdb

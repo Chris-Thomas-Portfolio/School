@@ -1,0 +1,11 @@
+module control_generator(
+	input clk,
+	output reg[1:0] Sel
+);
+
+always @(posedge clk)
+	begin
+		Sel <= Sel + 1;
+	end
+	
+endmodule

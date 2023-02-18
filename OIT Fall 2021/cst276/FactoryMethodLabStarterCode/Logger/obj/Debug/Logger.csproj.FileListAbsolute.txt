@@ -1,0 +1,6 @@
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\Logger\bin\Debug\Logger.dll
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\Logger\bin\Debug\Logger.pdb
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\Logger\obj\Debug\Logger.dll
+C:\OIT Fall 2021\cst276\FactoryMethodLabStarterCode\Logger\obj\Debug\Logger.pdb

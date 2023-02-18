@@ -1,0 +1,133 @@
+module gamelogic(
+input [3:0] position,
+input vga_clk,
+input place,
+input reset,
+output reg [2:0]  pos1,	//pos keeps track of the following: 000 = empty; 010 = blue; 001 = red
+output reg [2:0]  pos2,
+output reg [2:0]  pos3,
+output reg [2:0]  pos4,
+output reg[2:0]  pos5,
+output reg[2:0]  pos6,
+output reg[2:0]  pos7,
+output reg[2:0]  pos8,
+output reg[2:0]  pos9
+
+);
+
+//grid is a 3x3 grid counting 012
+//										345
+//										678
+reg [1:0] turn;
+
+
+
+initial begin
+turn = 2'b01;
+end
+
+always@(posedge vga_clk)
+begin
+	if(reset) begin
+		turn <= 2'b01;
+		pos1 <=2'b000;
+		pos2 <=2'b000;
+		pos3 <=2'b000;
+		pos4 <=2'b000;
+		pos5 <=2'b000;
+		pos6 <=2'b000;
+		pos7 <=2'b000;
+		pos8 <=2'b000;
+		pos9 <=2'b000;
+	
+	end
+	else if(place==1'b0) begin
+		
+		case(position) 
+			1: begin
+					//if the space is not filled, can fill.
+					if(pos1[2]==1'b0) begin
+						pos1[2] <= 1'b1; //fill it. 
+						pos1[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+			2: begin
+					//if the space is not filled, can fill.
+					if(pos2[2]==1'b0) begin
+						pos2[2] <= 1'b1; //fill it. 
+						pos2[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+			3: begin
+					//if the space is not filled, can fill.
+					if(pos3[2]==1'b0) begin
+						pos3[2] <= 1'b1; //fill it. 
+						pos3[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+			4: begin
+					//if the space is not filled, can fill.
+					if(pos4[2]==1'b0) begin
+						pos4[2] <= 1'b1; //fill it. 
+						pos4[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+		
+			5: begin
+					//if the space is not filled, can fill.
+					if(pos5[2]==1'b0) begin
+						pos5[2] <= 1'b1; //fill it. 
+						pos5[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+		
+			6: begin
+					//if the space is not filled, can fill.
+					if(pos6[2]==1'b0) begin
+						pos6[2] <= 1'b1; //fill it. 
+						pos6[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+		
+			7: begin
+					//if the space is not filled, can fill.
+					if(pos7[2]==1'b0) begin
+						pos7[2] <= 1'b1; //fill it. 
+						pos7[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+			8: begin
+				//if the space is not filled, can fill.
+					if(pos8[2]==1'b0) begin
+						pos8[2] <= 1'b1; //fill it. 
+						pos8[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+			9: begin
+					//if the space is not filled, can fill.
+					if(pos9[2]==1'b0) begin
+						pos9[2] <= 1'b1; //fill it. 
+						pos9[1:0] <= turn; //fill it with the value of whose turn.
+						turn <= ~turn;
+					end 
+					end
+			default: //do nothing
+				turn <= turn;
+
+	
+		endcase
+		
+	end
+
+end
+
+
+endmodule 

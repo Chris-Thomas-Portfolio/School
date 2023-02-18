@@ -1,0 +1,615 @@
+# Reading pref.tcl
+# do multiplexed_display_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/multiplexed_display.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:10 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/multiplexed_display.v 
+# -- Compiling module multiplexed_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:22:10 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:10 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 14:22:11 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/binary_to_bcd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:11 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/binary_to_bcd.v 
+# -- Compiling module binary_to_bcd
+# 
+# Top level modules:
+# 	binary_to_bcd
+# End time: 14:22:11 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/bcd_to_decimal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:11 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/bcd_to_decimal.v 
+# -- Compiling module bcd_to_decimal
+# 
+# Top level modules:
+# 	bcd_to_decimal
+# End time: 14:22:11 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/clk_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:11 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/clk_divider.v 
+# -- Compiling module clk_divider
+# 
+# Top level modules:
+# 	clk_divider
+# End time: 14:22:11 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_display.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:11 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_display.v 
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	mux_display
+# End time: 14:22:12 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/control_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:12 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/control_generator.v 
+# -- Compiling module control_generator
+# 
+# Top level modules:
+# 	control_generator
+# End time: 14:22:12 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_case.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:13 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/mux_case.v 
+# -- Compiling module mux_case
+# 
+# Top level modules:
+# 	mux_case
+# End time: 14:22:13 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03 {C:/OITWinter2022/DigitalSystemsDesign1/Lab03/demux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:13 on Feb 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/OITWinter2022/DigitalSystemsDesign1/Lab03" C:/OITWinter2022/DigitalSystemsDesign1/Lab03/demux.v 
+# -- Compiling module demux
+# 
+# Top level modules:
+# 	demux
+# End time: 14:22:13 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+cd ..
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+cd ..
+cd ModelSim
+do demux_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:38 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:22:38 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:38 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# ** Error: (vlog-13069) demux_tb.v(10): near "demux": syntax error, unexpected IDENTIFIER, expecting ';'.
+# -- Compiling module display_tb
+# -- Compiling module sel_tb
+# End time: 14:22:39 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./demux_tb.tcl line 11
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.v"
+do demux_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:54 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:22:54 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:54 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	sel_tb
+# End time: 14:22:54 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.demux_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:22:55 on Feb 25,2022
+# Loading work.demux_tb
+# Loading work.demux
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/clk'.
+# Executing ONERROR command at macro ./wave_demux.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/sel'.
+# Executing ONERROR command at macro ./wave_demux.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/dis_sel'.
+# Executing ONERROR command at macro ./wave_demux.do line 6
+do demux_tb.tcl
+# End time: 14:24:07 on Feb 25,2022, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:07 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:24:08 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:24:08 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	sel_tb
+# End time: 14:24:08 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.demux_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:24:08 on Feb 25,2022
+# Loading work.demux_tb
+# Loading work.demux
+do demux_tb.tcl
+# End time: 14:25:28 on Feb 25,2022, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:28 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:25:29 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:29 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	sel_tb
+# End time: 14:25:29 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.demux_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:25:29 on Feb 25,2022
+# Loading work.demux_tb
+# Loading work.demux
+do mux_case_tb.tcl
+# End time: 14:34:01 on Feb 25,2022, Elapsed time: 0:08:32
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:01 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:34:01 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:34:01 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v mux_case_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module mux_case_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	mux_case_tb
+# 	sel_tb
+# End time: 14:34:02 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.mux_case -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:34:02 on Feb 25,2022
+# Loading work.mux_case
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/clk'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/reset_n'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/enable'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/count'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/clk'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/reset_n'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 10
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/enable'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 11
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/U1/count'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 12
+do mux_case_tb.tcl
+# End time: 14:35:51 on Feb 25,2022, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:35:51 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:35:51 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:35:51 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v mux_case_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module mux_case_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	mux_case_tb
+# 	sel_tb
+# End time: 14:35:52 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.mux_case -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:35:52 on Feb 25,2022
+# Loading work.mux_case
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/clk'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/sel'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/ones'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/tens'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/hundreds'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/thousands'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/mout'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 10
+do mux_case_tb.tcl
+# End time: 14:36:58 on Feb 25,2022, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:36:58 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:36:58 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:36:58 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v mux_case_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module mux_case_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	mux_case_tb
+# 	sel_tb
+# End time: 14:36:59 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.mux_case -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:36:59 on Feb 25,2022
+# Loading work.mux_case
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case/U1/clk'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case/U1/sel'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case/U1/ones'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case/U1/tens'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case/U1/hundreds'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case/U1/thousands'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case/U1/mout'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 10
+do mux_case_tb.tcl
+# End time: 14:39:22 on Feb 25,2022, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:39:22 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:39:23 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:39:23 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v mux_case_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module mux_case_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	mux_case_tb
+# 	sel_tb
+# End time: 14:39:23 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.mux_case -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:39:23 on Feb 25,2022
+# Loading work.mux_case
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/ones'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/tens'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/hundreds'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/thousands'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/sel'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/clk'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/mout'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 10
+do mux_case_tb.tcl
+# End time: 14:42:09 on Feb 25,2022, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:42:09 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:42:09 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:42:09 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v mux_case_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module mux_case_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	mux_case_tb
+# 	sel_tb
+# End time: 14:42:10 on Feb 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.mux_case -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:42:10 on Feb 25,2022
+# Loading work.mux_case
+# ** UI-Msg: (vish-4014) No objects found matching 'Module'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/ones'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/tens'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 5
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/hundreds'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 6
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/thousands'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 7
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/sel'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/clk'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/mux_case_tb/U1/mout'.
+# Executing ONERROR command at macro ./wave_mux_case.do line 10
+do mux_case_tb.tcl
+# End time: 14:43:42 on Feb 25,2022, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:43:43 on Feb 25,2022
+# vlog -reportprogress 300 ../bcd_to_decimal.v ../binary_to_bcd.v ../clk_divider.v ../control_generator.v ../counter.v ../demux.v ../multiplexed_display.v ../mux_case.v ../mux_display.v 
+# -- Compiling module bcd_to_decimal
+# -- Compiling module binary_to_bcd
+# -- Compiling module clk_divider
+# -- Compiling module control_generator
+# -- Compiling module counter
+# -- Compiling module demux
+# -- Compiling module multiplexed_display
+# -- Compiling module mux_case
+# -- Compiling module mux_display
+# 
+# Top level modules:
+# 	multiplexed_display
+# End time: 14:43:43 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:43:43 on Feb 25,2022
+# vlog -reportprogress 300 bcd_tb.v counter_tb.v demux_tb.v display_tb.v mux_case_tb.v sel_tb.v 
+# -- Compiling module bcd_tb
+# -- Compiling module counter_tb
+# -- Compiling module demux_tb
+# -- Compiling module display_tb
+# -- Compiling module mux_case_tb
+# -- Compiling module sel_tb
+# 
+# Top level modules:
+# 	bcd_tb
+# 	counter_tb
+# 	demux_tb
+# 	display_tb
+# 	mux_case_tb
+# 	sel_tb
+# End time: 14:43:43 on Feb 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.mux_case_tb -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 14:43:43 on Feb 25,2022
+# Loading work.mux_case_tb
+# Loading work.mux_case
+# End time: 14:45:34 on Feb 25,2022, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0

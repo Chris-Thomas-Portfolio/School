@@ -1,0 +1,27 @@
+`timescale 1ns / 1ps
+
+module testbench ();
+
+reg clk, reset_n, enable, count;
+wire [15:0] count;
+
+counter U1(clk, reset_n, enable, count);
+
+
+	// Handle the Clock
+	always
+		#10 clk <= ~clk;
+
+initial
+	begin
+			  reset_n <= 1'b1;
+			  clk 	 <= 1'b0;
+			  count 	 <= 16'b0000000000000000
+		#160 count	 <= 16'b1111111111110000;
+	end
+	
+always
+	begin
+		#10 count <= count + 1;
+	end
+endmodule

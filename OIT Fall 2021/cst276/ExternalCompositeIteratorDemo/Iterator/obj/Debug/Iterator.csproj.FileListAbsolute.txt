@@ -1,0 +1,74 @@
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\bin\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\obj\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\obj\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\obj\Debug\Decl\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\Iterator\Iterator\obj\Debug\Decl\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\obj\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\obj\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\bin\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\obj\Debug\Decl\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\IteratorDemo\Iterator\obj\Debug\Decl\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.exe
+C:\Users\Cal\Desktop\Iterator\2013\InternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.exe
+C:\Users\Cal\Desktop\Iterator2014\InternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.pdb
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.exe
+C:\Users\Cal\Desktop\Morning Lecture\InternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.pdb
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.exe
+F:\Backup2014\OITCourses\Patterns\Patterns2014\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.pdb
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.exe
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Decl\Iterator.pdb
+C:\Users\Cal\Desktop\IteratorCompositeVisitor2014\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+E:\BackupCurrent\OITCourses\Patterns\Patterns2015\IteratorCompositeVisitor2015\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+E:\BackupCurrent\OITCourses\Patterns\Patterns2015\IteratorCompositeVisitor2015\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+E:\BackupCurrent\OITCourses\Patterns\Patterns2015\IteratorCompositeVisitor2015\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+E:\BackupCurrent\OITCourses\Patterns\Patterns2015\IteratorCompositeVisitor2015\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+E:\BackupCurrent\OITCourses\Patterns\Patterns2015\IteratorCompositeVisitor2015\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+E:\BackupCurrent\OITCourses\Patterns\Patterns2015\IteratorCompositeVisitor2015\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\cset1\Desktop\Patterns\Practice\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\cset1\Desktop\Patterns\Practice\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+C:\Users\cset1\Desktop\Patterns\Practice\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+C:\Users\cset1\Desktop\Patterns\Practice\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+C:\Users\cset1\Desktop\Patterns\Practice\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+C:\Users\cset1\Desktop\Patterns\Practice\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache
+C:\Users\cset1\Desktop\Patterns\Afternoon\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\cset1\Desktop\Patterns\Afternoon\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.exe
+C:\Users\cset1\Desktop\Patterns\Afternoon\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.pdb
+C:\Users\cset1\Desktop\Patterns\Afternoon\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.exe
+C:\Users\cset1\Desktop\Patterns\Afternoon\ExternalCompositeIteratorDemo\Iterator\bin\Debug\Iterator.pdb
+C:\Users\cset1\Desktop\Patterns\Afternoon\ExternalCompositeIteratorDemo\Iterator\obj\Debug\Iterator.csprojResolveAssemblyReference.cache

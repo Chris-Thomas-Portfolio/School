@@ -1,0 +1,12 @@
+module clk_FSM(
+	input clk,
+	input reset,
+	input set,
+	input hour,
+	input minute
+);
+
+
+
+
+endmodule

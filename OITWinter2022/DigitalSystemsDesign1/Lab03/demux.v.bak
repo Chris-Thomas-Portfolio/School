@@ -1,0 +1,17 @@
+module demux_2to4(
+	input clk
+	input muxed_data,
+	input [1:0] sel,
+	output reg w,
+	output reg x,
+	output reg y, 
+	output reg z
+);
+
+always @(posedge clk)
+	begin
+		case(sel)
+			2'b00 : {z, y, x, w} <= {3'b000, muxed_data};
+			2'b01 : {z, y, x, w} <= {2'b00, muxed_data, 1'b0};
+			2'b10 : {z, y, x, w} <= {1'b0, muxed_data, 2'b00};
+			2'b11 : {z, y, x, w} <= {muxed_data, 3'b000};

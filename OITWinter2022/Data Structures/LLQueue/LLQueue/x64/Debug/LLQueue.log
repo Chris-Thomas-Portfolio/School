@@ -1,0 +1,14 @@
+﻿  Exception.cpp
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Exception.cpp(55,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Exception.cpp(74,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Exception.cpp(92,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Exception.cpp(112,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Exception.cpp(135,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Exception.cpp(172,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Stub.cpp
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Stub.cpp(124,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Stub.cpp(167,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Stub.cpp(268,20): warning C4101: 'exception': unreferenced local variable
+C:\OITWinter2022\Data Structures\LLQueue\LLQueue\Stub.cpp(310,20): warning C4101: 'exception': unreferenced local variable
+  Generating Code...
+  LLQueue.vcxproj -> C:\OITWinter2022\Data Structures\LLQueue\x64\Debug\LLQueue.exe

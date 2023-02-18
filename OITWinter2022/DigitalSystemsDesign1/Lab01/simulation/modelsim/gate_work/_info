@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/OIT Winter 2022/Digit Systems Design 1/Lab01/simulation/modelsim
+vLab01
+!s110 1642191724
+!i10b 1
+!s100 Ggg78G@PW20QUZAE:z2601
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IGiR;36caa<iN3NaaOL8m@0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1642053173
+8Lab01.vo
+FLab01.vo
+!i122 0
+L0 32 1724
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1642191724.000000
+!s107 Lab01.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Lab01.vo|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+tCvgOpt 0
+n@lab01
