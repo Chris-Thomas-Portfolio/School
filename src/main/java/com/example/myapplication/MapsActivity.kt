@@ -153,7 +153,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLngOrigin))
 
         val http1sthalf = "https://maps.googleapis.com/maps/api/directions/json?origin="
-        val http2ndhalf = "&destination=42.2571,-121.7853&key=AIzaSyDL5Ia8VbttZzB7nz1dTQvNp5G1ztOcioQ"
+        val http2ndhalf = "&destination=42.2571,-121.7853&key=APIKEY"
         val path: MutableList<List<LatLng>> = ArrayList()
         val urlDirections = "$http1sthalf$latitude,$longitude$http2ndhalf"
         val directionsRequest = object : StringRequest(Request.Method.GET, urlDirections, Response.Listener<String> {
